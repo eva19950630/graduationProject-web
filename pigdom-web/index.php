@@ -1,3 +1,17 @@
+<?php
+include("../db_connect.php");
+
+// GET game data record
+$data_gamerecord = "SELECT * FROM game_record";
+$recorddata = mysqli_query($Link, $data_gamerecord);
+$total_records = mysqli_num_rows($recorddata);
+
+// GET user data
+$data_user = "SELECT * FROM user";
+$userdata = mysqli_query($Link, $data_user);
+$total_users = mysqli_num_rows($userdata);
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -47,16 +61,19 @@
 
 	<!-- history page -->
 	<div style="display:none" class="history">
+		<!-- account / game select options -->
 		<div class="history-select">
 			<div class="container">
 				<div class="col-md-4">
 					<form>
 					選擇帳號：
 					<select name="select-account" class="selectbox">
-					　<option value="50101">50101</option>
-					　<option value="50102">50102</option>
-					　<option value="50103">50103</option>
-					　<option value="50104">50104</option>
+					<?php
+		            for ($i = 0; $i < $total_users; $i++) {
+		            	$row = mysqli_fetch_row($userdata);
+		            ?>
+						<option value=<?php $row[1] ?>><?php echo $row[1] ?></option>
+					<?php } ?>
 					</select>
 					</form>
 				</div>
@@ -64,15 +81,55 @@
 					<form>
 					選擇遊戲：
 					<select name="select-game" class="selectbox">
-					　<option value="game-lock">豬豬解密碼</option>
-					　<option value="game-fishing">豬豬來撈魚</option>
-					　<option value="game-quickanswer">豬豬蓋印章</option>
-					　<option value="game-balance">豬豬玩天平</option>
-					　<option value="game-buying">豬豬糖果屋</option>
+						<option value="game-lock">大家來解鎖</option>
+						<option value="game-fishing">大家來撈魚</option>
+						<option value="game-quickanswer">大家來蓋章</option>
+						<option value="game-balance">大家來平衡</option>
+						<option value="game-buying">大家來買糖</option>
 					</select>
 					</form>
 				</div>
+				<div class="col-md-4">
+				<button type="button" class="btn btn-default">全部資料</button>
+				</div>
 			</div>
+
+		</div>
+		<!-- record table -->
+		<div class="history-recordtable">
+			<table border="1">
+				<tr class="table-head">
+	                <td>編號</td>
+	                <td>小遊戲</td>
+	                <td>問題</td>
+	                <td>答案</td>
+	                <td>學生答案</td>
+	                <td>點擊按鈕</td>
+	                <td>答題狀況</td>
+	                <td>進教學?</td>
+	                <td>花費時間(秒)</td>
+	                <td>記錄時間</td>
+	                <td>學生帳號</td>
+	            </tr>
+	            <?php
+	            for ($i = 0; $i < $total_records; $i++) {
+	            	$row = mysqli_fetch_row($recorddata);
+	            ?>
+	            <tr>
+	                <td><?php echo $i+1 ?></td>
+	                <td><?php echo $row[1]; ?></td>
+	                <td><?php echo $row[2]; ?></td>
+	                <td><?php echo $row[3]; ?></td>
+	                <td><?php echo $row[4]; ?></td>
+	                <td><?php echo $row[5]; ?></td>
+	                <td><?php echo $row[6]; ?></td>
+	                <td><?php echo $row[7]; ?></td>
+	                <td><?php echo $row[8]; ?></td>
+	                <td><?php echo $row[9]; ?></td>
+	                <td><?php echo $row[10]; ?></td>
+	            </tr>
+	            <?php } ?>
+			</table>
 		</div>
 	</div>
 	<!-- end history page -->

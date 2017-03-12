@@ -60,11 +60,29 @@ body {
 	/*background-color: #fff;*/
 	position: absolute;
 	max-width: 45vw;
-	margin: 120px 0 0 580px;
+	margin: 80px 0 0 520px;
 }
 .selectbox {
 	box-shadow: 1px 2px 10px -2px rgba(0, 0, 0, 0.3);
 	border-radius: 3px;
 	min-width: 200px;
 	outline-color: #f2db63;
+}
+
+.history-recordtable {
+	background-color: #fff;
+	position: absolute;
+	margin: 160px 0 0 500px;
+	width: 60vw;
+	height: 70vh;
+	font-size: 12px;
+	text-align: center;
+	overflow: auto;
+}
+.history-recordtable td {
+	width: 100px;
+}
+.table-head {
+	background-color: #f2db63;
+	font-weight: bold;
 }

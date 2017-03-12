@@ -1,0 +1,13 @@
+[12-Mar-2017 17:21:52 Asia/Taipei] PHP Warning:  mysqli_query(): Empty query in D:\TWAMPd\htdocs\graduationProject\pigdom-web\index.php on line 4
+[12-Mar-2017 17:21:52 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\pigdom-web\index.php on line 5
+[12-Mar-2017 17:22:35 Asia/Taipei] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in D:\TWAMPd\htdocs\graduationProject\pigdom-web\index.php on line 4
+[12-Mar-2017 17:22:35 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in D:\TWAMPd\htdocs\graduationProject\pigdom-web\index.php on line 5
+[12-Mar-2017 17:28:29 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\pigdom-web\index.php on line 5
+[12-Mar-2017 17:28:40 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\pigdom-web\index.php on line 5
+[12-Mar-2017 17:28:42 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\pigdom-web\index.php on line 5
+[12-Mar-2017 21:06:03 Asia/Taipei] PHP Parse error:  syntax error, unexpected '$recorddata' (T_VARIABLE) in D:\TWAMPd\htdocs\graduationProject\pigdom-web\index.php on line 4
+[12-Mar-2017 21:06:37 Asia/Taipei] PHP Parse error:  syntax error, unexpected '$recorddata' (T_VARIABLE) in D:\TWAMPd\htdocs\graduationProject\pigdom-web\index.php on line 4
+[12-Mar-2017 21:06:38 Asia/Taipei] PHP Parse error:  syntax error, unexpected '$recorddata' (T_VARIABLE) in D:\TWAMPd\htdocs\graduationProject\pigdom-web\index.php on line 4
+[12-Mar-2017 21:07:25 Asia/Taipei] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in D:\TWAMPd\htdocs\graduationProject\pigdom-web\index.php on line 4
+[12-Mar-2017 21:07:27 Asia/Taipei] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in D:\TWAMPd\htdocs\graduationProject\pigdom-web\index.php on line 4
+[12-Mar-2017 21:07:28 Asia/Taipei] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in D:\TWAMPd\htdocs\graduationProject\pigdom-web\index.php on line 4
