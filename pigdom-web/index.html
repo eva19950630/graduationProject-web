@@ -39,21 +39,45 @@
 	</div>
 	<!-- end sidebar -->
 	
+	<!-- index page -->
 	<div class="rightside-page index">
-		首頁
+		首頁abc
 	</div>
+	<!-- end index page -->
 
+	<!-- history page -->
 	<div style="display:none" class="history">
-		<form>
-		<select name="select-account">
-		　<option value="50101">50101</option>
-		　<option value="50102">50102</option>
-		　<option value="50103">50103</option>
-		　<option value="50104">50104</option>
-		</select>
-		</form>
+		<div class="history-select">
+			<div class="container">
+				<div class="col-md-4">
+					<form>
+					選擇帳號：
+					<select name="select-account" class="selectbox">
+					　<option value="50101">50101</option>
+					　<option value="50102">50102</option>
+					　<option value="50103">50103</option>
+					　<option value="50104">50104</option>
+					</select>
+					</form>
+				</div>
+				<div class="col-md-4">
+					<form>
+					選擇遊戲：
+					<select name="select-game" class="selectbox">
+					　<option value="game-lock">豬豬解密碼</option>
+					　<option value="game-fishing">豬豬來撈魚</option>
+					　<option value="game-quickanswer">豬豬蓋印章</option>
+					　<option value="game-balance">豬豬玩天平</option>
+					　<option value="game-buying">豬豬糖果屋</option>
+					</select>
+					</form>
+				</div>
+			</div>
+		</div>
 	</div>
+	<!-- end history page -->
 
+	<!-- analysis page -->
 	<div style="display:none" class="analysis">
 		統計分析<br>
 		帳號/遊戲<br>
@@ -61,13 +85,15 @@
 		遊戲:被遊玩次數/?<br>
 		圖表
 	</div>
+	<!-- end analysis page -->
 
+	<!-- account page -->
 	<div style="display:none" class="account">
 		帳號管理<br>
 		搜尋帳號<br>
 		帳號密碼表格
 	</div>
-
+	<!-- end account page -->
 </body>
 
 	<!-- ##### JAVASCRIPTS ##### -->

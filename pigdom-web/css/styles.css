@@ -1,8 +1,12 @@
-@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url('https://fonts.googleapis.com/earlyaccess/notosanstc.css');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 
+/*overall*/
 body {
 	background-color: #f0f0f0;
-	font-family: 'Noto Sans TC', sans-serif;
+	font-family: "Noto Sans", "Noto Sans TC", sans-serif;
+	font-size: 20px;
+	overflow: hidden;
 }
 
 /*sidebar*/
@@ -10,9 +14,9 @@ body {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
+	position: relative;
 	float: left;
 	width: 25%;
-	/*padding: 2em;*/
 	background-color: #f2db63;
 }
 .logo {
@@ -43,4 +47,24 @@ body {
 .sidebar-menu.update {
 	margin: 80px 0 0 10px;
 	font-size: 16px;
+}
+
+/*rightside-page*/
+.rightside-page {
+	position: relative;
+	/*width: 75%;*/
+}
+
+/*history*/
+.history-select {
+	/*background-color: #fff;*/
+	position: absolute;
+	max-width: 45vw;
+	margin: 120px 0 0 580px;
+}
+.selectbox {
+	box-shadow: 1px 2px 10px -2px rgba(0, 0, 0, 0.3);
+	border-radius: 3px;
+	min-width: 200px;
+	outline-color: #f2db63;
 }
