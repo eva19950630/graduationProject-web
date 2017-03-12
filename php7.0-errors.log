@@ -1,0 +1,110 @@
+[16-Oct-2016 12:21:10 Asia/Taipei] PHP Parse error:  syntax error, unexpected 'tbads' (T_STRING), expecting ',' or ';' in D:\University of Taipei\Server+DB\TWAMPd\htdocs\graduationProject\random_testbank.php on line 56
+[16-Oct-2016 15:36:48 Asia/Taipei] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in D:\University of Taipei\Server+DB\TWAMPd\htdocs\graduationProject\random_testbank.php on line 29
+[16-Oct-2016 15:36:48 Asia/Taipei] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in D:\University of Taipei\Server+DB\TWAMPd\htdocs\graduationProject\random_testbank.php on line 30
+[16-Oct-2016 15:37:17 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in D:\University of Taipei\Server+DB\TWAMPd\htdocs\graduationProject\random_testbank.php on line 29
+[16-Oct-2016 15:37:17 Asia/Taipei] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in D:\University of Taipei\Server+DB\TWAMPd\htdocs\graduationProject\random_testbank.php on line 30
+[16-Oct-2016 15:37:38 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in D:\University of Taipei\Server+DB\TWAMPd\htdocs\graduationProject\random_testbank.php on line 29
+[16-Oct-2016 15:37:38 Asia/Taipei] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, null given in D:\University of Taipei\Server+DB\TWAMPd\htdocs\graduationProject\random_testbank.php on line 30
+[16-Oct-2016 15:37:50 Asia/Taipei] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in D:\University of Taipei\Server+DB\TWAMPd\htdocs\graduationProject\random_testbank.php on line 29
+[16-Oct-2016 15:37:50 Asia/Taipei] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in D:\University of Taipei\Server+DB\TWAMPd\htdocs\graduationProject\random_testbank.php on line 30
+[16-Oct-2016 15:47:53 Asia/Taipei] PHP Warning:  mysqli_num_fields() expects parameter 1 to be mysqli_result, boolean given in D:\University of Taipei\Server+DB\TWAMPd\htdocs\graduationProject\random_testbank.php on line 18
+[16-Oct-2016 15:47:53 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in D:\University of Taipei\Server+DB\TWAMPd\htdocs\graduationProject\random_testbank.php on line 19
+[16-Oct-2016 15:54:53 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, string given in D:\University of Taipei\Server+DB\TWAMPd\htdocs\graduationProject\random_testbank.php on line 16
+[16-Oct-2016 15:55:50 Asia/Taipei] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in D:\University of Taipei\Server+DB\TWAMPd\htdocs\graduationProject\random_testbank.php on line 29
+[16-Oct-2016 15:56:07 Asia/Taipei] PHP Parse error:  syntax error, unexpected '$total_records' (T_VARIABLE), expecting ',' or ';' in D:\University of Taipei\Server+DB\TWAMPd\htdocs\graduationProject\random_testbank.php on line 28
+[17-Oct-2016 18:19:55 Asia/Taipei] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in D:\University of Taipei\Server+DB\TWAMPd\htdocs\graduationProject\random_testbank.php on line 55
+[17-Oct-2016 18:45:19 Asia/Taipei] PHP Parse error:  syntax error, unexpected 'mysqli_select_db' (T_STRING) in D:\University of Taipei\Server+DB\TWAMPd\htdocs\graduationProject\random_testbank.php on line 7
+[17-Oct-2016 18:45:26 Asia/Taipei] PHP Parse error:  syntax error, unexpected 'mysqli_select_db' (T_STRING) in D:\University of Taipei\Server+DB\TWAMPd\htdocs\graduationProject\random_testbank.php on line 7
+[23-Oct-2016 12:51:17 Asia/Taipei] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in D:\University of Taipei\Server+DB\TWAMPd\htdocs\graduationProject\random_testbank.php on line 23
+[24-Oct-2016 19:40:56 Asia/Taipei] PHP Parse error:  syntax error, unexpected 'mysqli_query' (T_STRING) in D:\University of Taipei\Server+DB\TWAMPd\htdocs\graduationProject\random_testbank.php on line 6
+[24-Oct-2016 19:41:03 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in D:\University of Taipei\Server+DB\TWAMPd\htdocs\graduationProject\random_testbank.php on line 9
+[24-Oct-2016 21:06:48 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in D:\University of Taipei\Server+DB\TWAMPd\htdocs\graduationProject\random_testbank.php on line 9
+[24-Oct-2016 21:10:47 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in D:\University of Taipei\Server+DB\TWAMPd\htdocs\graduationProject\random_testbank.php on line 9
+[24-Oct-2016 21:10:53 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in D:\University of Taipei\Server+DB\TWAMPd\htdocs\graduationProject\random_testbank.php on line 9
+[24-Oct-2016 21:11:10 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in D:\University of Taipei\Server+DB\TWAMPd\htdocs\graduationProject\random_testbank.php on line 9
+[27-Oct-2016 18:24:20 Asia/Taipei] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in D:\TWAMPd\htdocs\graduationProject\random_testbank.php on line 2
+[27-Oct-2016 18:24:20 Asia/Taipei] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in D:\TWAMPd\htdocs\graduationProject\random_testbank.php on line 3
+[27-Oct-2016 18:24:20 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\TWAMPd\htdocs\graduationProject\random_testbank.php on line 6
+[27-Oct-2016 18:24:20 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\TWAMPd\htdocs\graduationProject\random_testbank.php on line 7
+[27-Oct-2016 18:24:20 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\TWAMPd\htdocs\graduationProject\random_testbank.php on line 8
+[27-Oct-2016 18:24:20 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in D:\TWAMPd\htdocs\graduationProject\random_testbank.php on line 9
+[27-Oct-2016 18:24:20 Asia/Taipei] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in D:\TWAMPd\htdocs\graduationProject\random_testbank.php on line 10
+[27-Oct-2016 18:26:02 Asia/Taipei] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in D:\TWAMPd\htdocs\graduationProject\random_testbank.php on line 2
+[27-Oct-2016 18:26:02 Asia/Taipei] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in D:\TWAMPd\htdocs\graduationProject\random_testbank.php on line 3
+[27-Oct-2016 18:26:02 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\TWAMPd\htdocs\graduationProject\random_testbank.php on line 6
+[27-Oct-2016 18:26:02 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\TWAMPd\htdocs\graduationProject\random_testbank.php on line 7
+[27-Oct-2016 18:26:02 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\TWAMPd\htdocs\graduationProject\random_testbank.php on line 8
+[27-Oct-2016 18:26:02 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in D:\TWAMPd\htdocs\graduationProject\random_testbank.php on line 9
+[27-Oct-2016 18:26:02 Asia/Taipei] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in D:\TWAMPd\htdocs\graduationProject\random_testbank.php on line 10
+[27-Oct-2016 18:26:03 Asia/Taipei] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in D:\TWAMPd\htdocs\graduationProject\random_testbank.php on line 2
+[27-Oct-2016 18:26:03 Asia/Taipei] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in D:\TWAMPd\htdocs\graduationProject\random_testbank.php on line 3
+[27-Oct-2016 18:26:03 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\TWAMPd\htdocs\graduationProject\random_testbank.php on line 6
+[27-Oct-2016 18:26:03 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\TWAMPd\htdocs\graduationProject\random_testbank.php on line 7
+[27-Oct-2016 18:26:03 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\TWAMPd\htdocs\graduationProject\random_testbank.php on line 8
+[27-Oct-2016 18:26:03 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in D:\TWAMPd\htdocs\graduationProject\random_testbank.php on line 9
+[27-Oct-2016 18:26:03 Asia/Taipei] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in D:\TWAMPd\htdocs\graduationProject\random_testbank.php on line 10
+[18-Nov-2016 14:21:24 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\random_appliedquestion.php on line 10
+[18-Nov-2016 14:35:45 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in D:\TWAMPd\htdocs\graduationProject\random_appliedquestion.php on line 12
+[18-Nov-2016 14:57:18 Asia/Taipei] PHP Warning:  include(random_showtext.php): failed to open stream: No such file or directory in D:\TWAMPd\htdocs\graduationProject\aq_rannumber.php on line 2
+[18-Nov-2016 14:57:18 Asia/Taipei] PHP Warning:  include(): Failed opening 'random_showtext.php' for inclusion (include_path='.;') in D:\TWAMPd\htdocs\graduationProject\aq_rannumber.php on line 2
+[18-Nov-2016 15:08:13 Asia/Taipei] PHP Parse error:  syntax error, unexpected '.' in D:\TWAMPd\htdocs\graduationProject\aq_rannumber.php on line 7
+[19-Nov-2016 21:34:23 Asia/Taipei] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in D:\TWAMPd\htdocs\graduationProject\aq_showtext.php on line 14
+[19-Nov-2016 22:45:27 Asia/Taipei] PHP Warning:  require_once(aq_showtext.php): failed to open stream: No such file or directory in D:\TWAMPd\htdocs\graduationProject\aq_rantext.php on line 2
+[19-Nov-2016 22:45:27 Asia/Taipei] PHP Fatal error:  require_once(): Failed opening required 'aq_showtext.php' (include_path='.;') in D:\TWAMPd\htdocs\graduationProject\aq_rantext.php on line 2
+[20-Nov-2016 13:16:58 Asia/Taipei] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in D:\TWAMPd\htdocs\graduationProject\aq_showques.php on line 16
+[26-Nov-2016 20:43:07 Asia/Taipei] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in D:\TWAMPd\htdocs\graduationProject\testbank.php on line 2
+[26-Nov-2016 20:43:07 Asia/Taipei] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, resource given in D:\TWAMPd\htdocs\graduationProject\testbank.php on line 3
+[26-Nov-2016 20:43:07 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, resource given in D:\TWAMPd\htdocs\graduationProject\testbank.php on line 5
+[26-Nov-2016 20:43:07 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, resource given in D:\TWAMPd\htdocs\graduationProject\testbank.php on line 6
+[26-Nov-2016 20:43:07 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, resource given in D:\TWAMPd\htdocs\graduationProject\testbank.php on line 7
+[26-Nov-2016 20:43:07 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in D:\TWAMPd\htdocs\graduationProject\testbank.php on line 8
+[26-Nov-2016 20:43:07 Asia/Taipei] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, resource given in D:\TWAMPd\htdocs\graduationProject\testbank.php on line 9
+[30-Nov-2016 12:51:44 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\random_appliedquestion.php on line 11
+[30-Nov-2016 12:52:43 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\random_appliedquestion.php on line 11
+[30-Nov-2016 12:53:41 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\random_appliedquestion.php on line 11
+[30-Nov-2016 12:55:37 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\random_appliedquestion.php on line 11
+[30-Nov-2016 12:58:46 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\random_appliedquestion.php on line 11
+[30-Nov-2016 12:59:16 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in D:\TWAMPd\htdocs\graduationProject\random_appliedquestion.php on line 11
+[30-Nov-2016 13:00:05 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\random_appliedquestion.php on line 11
+[30-Nov-2016 13:00:34 Asia/Taipei] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in D:\TWAMPd\htdocs\graduationProject\random_appliedquestion.php on line 10
+[30-Nov-2016 13:00:52 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\random_appliedquestion.php on line 11
+[03-Dec-2016 10:58:44 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\random_appliedquestion.php on line 11
+[03-Dec-2016 10:59:08 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\random_appliedquestion.php on line 11
+[03-Dec-2016 17:37:07 Asia/Taipei] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in D:\TWAMPd\htdocs\graduationProject\test.php on line 3
+[03-Dec-2016 17:46:35 Asia/Taipei] PHP Parse error:  syntax error, unexpected '<', expecting end of file in D:\TWAMPd\htdocs\graduationProject\test.php on line 5
+[03-Dec-2016 17:46:39 Asia/Taipei] PHP Parse error:  syntax error, unexpected '<', expecting end of file in D:\TWAMPd\htdocs\graduationProject\test.php on line 5
+[03-Dec-2016 17:46:45 Asia/Taipei] PHP Parse error:  syntax error, unexpected '<' in D:\TWAMPd\htdocs\graduationProject\test.php on line 5
+[03-Dec-2016 19:44:18 Asia/Taipei] PHP Parse error:  syntax error, unexpected 'RED' (T_STRING), expecting ')' in D:\TWAMPd\htdocs\graduationProject\test.php on line 2
+[04-Dec-2016 19:27:08 Asia/Taipei] PHP Parse error:  syntax error, unexpected '.' in D:\TWAMPd\htdocs\graduationProject\test.php on line 5
+[10-Dec-2016 16:52:21 Asia/Taipei] PHP Parse error:  syntax error, unexpected '"×"' (T_CONSTANT_ENCAPSED_STRING) in D:\TWAMPd\htdocs\graduationProject\num_showques.php on line 40
+[10-Dec-2016 21:09:28 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\random_appliedquestion.php on line 11
+[12-Dec-2016 21:21:21 Asia/Taipei] PHP Parse error:  syntax error, unexpected '$rs' (T_VARIABLE), expecting ',' or ';' in D:\TWAMPd\htdocs\graduationProject\num_showques(lock).php on line 80
+[15-Dec-2016 17:20:10 Asia/Taipei] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in D:\TWAMPd\htdocs\graduationProject\test.php on line 8
+[15-Dec-2016 17:20:10 Asia/Taipei] PHP Warning:  mysql_close() expects parameter 1 to be resource, null given in D:\TWAMPd\htdocs\graduationProject\test.php on line 13
+[16-Feb-2017 15:33:31 Asia/Taipei] PHP Fatal error:  Uncaught Error: Call to undefined function calculate() in D:\TWAMPd\htdocs\graduationProject\test.php:25
+Stack trace:
+#0 {main}
+  thrown in D:\TWAMPd\htdocs\graduationProject\test.php on line 25
+[16-Feb-2017 15:34:48 Asia/Taipei] PHP Fatal error:  Uncaught Error: Call to undefined function calculate() in D:\TWAMPd\htdocs\graduationProject\test.php:25
+Stack trace:
+#0 {main}
+  thrown in D:\TWAMPd\htdocs\graduationProject\test.php on line 25
+[16-Feb-2017 15:39:17 Asia/Taipei] PHP Fatal error:  Uncaught Error: Call to undefined function test() in D:\TWAMPd\htdocs\graduationProject\test.php:29
+Stack trace:
+#0 {main}
+  thrown in D:\TWAMPd\htdocs\graduationProject\test.php on line 29
+[16-Feb-2017 22:30:44 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\numberQues_normal.php on line 87
+[16-Feb-2017 22:37:18 Asia/Taipei] PHP Warning:  Missing argument 7 for calculate(), called in D:\TWAMPd\htdocs\graduationProject\numberQues_normal.php on line 38 and defined in D:\TWAMPd\htdocs\graduationProject\numberQues_normal.php on line 48
+[16-Feb-2017 22:37:18 Asia/Taipei] PHP Warning:  Missing argument 8 for calculate(), called in D:\TWAMPd\htdocs\graduationProject\numberQues_normal.php on line 38 and defined in D:\TWAMPd\htdocs\graduationProject\numberQues_normal.php on line 48
+[16-Feb-2017 22:38:03 Asia/Taipei] PHP Warning:  Missing argument 7 for calculate(), called in D:\TWAMPd\htdocs\graduationProject\numberQues_normal.php on line 42 and defined in D:\TWAMPd\htdocs\graduationProject\numberQues_normal.php on line 52
+[16-Feb-2017 22:38:03 Asia/Taipei] PHP Warning:  Missing argument 8 for calculate(), called in D:\TWAMPd\htdocs\graduationProject\numberQues_normal.php on line 42 and defined in D:\TWAMPd\htdocs\graduationProject\numberQues_normal.php on line 52
+[16-Feb-2017 22:38:04 Asia/Taipei] PHP Warning:  Missing argument 7 for calculate(), called in D:\TWAMPd\htdocs\graduationProject\numberQues_normal.php on line 42 and defined in D:\TWAMPd\htdocs\graduationProject\numberQues_normal.php on line 52
+[16-Feb-2017 22:38:04 Asia/Taipei] PHP Warning:  Missing argument 8 for calculate(), called in D:\TWAMPd\htdocs\graduationProject\numberQues_normal.php on line 42 and defined in D:\TWAMPd\htdocs\graduationProject\numberQues_normal.php on line 52
+[17-Feb-2017 22:57:09 Asia/Taipei] PHP Fatal error:  Uncaught Error: Call to undefined function calculate() in D:\TWAMPd\htdocs\graduationProject\numQues(quickanswer).php:28
+Stack trace:
+#0 {main}
+  thrown in D:\TWAMPd\htdocs\graduationProject\numQues(quickanswer).php on line 28
+[17-Feb-2017 22:58:31 Asia/Taipei] PHP Fatal error:  Uncaught Error: Call to undefined function calculate() in D:\TWAMPd\htdocs\graduationProject\numQues(quickanswer).php:28
+Stack trace:
+#0 {main}
+  thrown in D:\TWAMPd\htdocs\graduationProject\numQues(quickanswer).php on line 28

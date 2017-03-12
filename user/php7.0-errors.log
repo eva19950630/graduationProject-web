@@ -1,0 +1,27 @@
+[19-Feb-2017 15:28:54 Asia/Taipei] PHP Parse error:  syntax error, unexpected '>', expecting end of file in D:\TWAMPd\htdocs\graduationProject\user\register.php on line 17
+[02-Mar-2017 11:09:45 Asia/Taipei] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in D:\TWAMPd\htdocs\graduationProject\user\register.php on line 8
+[02-Mar-2017 11:10:01 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in D:\TWAMPd\htdocs\graduationProject\user\register.php on line 9
+[02-Mar-2017 14:46:09 Asia/Taipei] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in D:\TWAMPd\htdocs\graduationProject\user\userdb_connect.php on line 3
+[02-Mar-2017 14:46:09 Asia/Taipei] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in D:\TWAMPd\htdocs\graduationProject\user\userdb_connect.php on line 4
+[02-Mar-2017 14:46:09 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\TWAMPd\htdocs\graduationProject\user\userdb_connect.php on line 6
+[02-Mar-2017 14:46:09 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\TWAMPd\htdocs\graduationProject\user\userdb_connect.php on line 7
+[02-Mar-2017 14:48:15 Asia/Taipei] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in D:\TWAMPd\htdocs\graduationProject\user\userdb_connect.php on line 3
+[02-Mar-2017 14:48:15 Asia/Taipei] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in D:\TWAMPd\htdocs\graduationProject\user\userdb_connect.php on line 4
+[02-Mar-2017 14:48:15 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\TWAMPd\htdocs\graduationProject\user\userdb_connect.php on line 6
+[02-Mar-2017 14:48:15 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\TWAMPd\htdocs\graduationProject\user\userdb_connect.php on line 7
+[02-Mar-2017 16:35:36 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in D:\TWAMPd\htdocs\graduationProject\user\afterlogin.php on line 8
+[02-Mar-2017 16:36:29 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in D:\TWAMPd\htdocs\graduationProject\user\afterlogin.php on line 10
+[02-Mar-2017 16:39:03 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in D:\TWAMPd\htdocs\graduationProject\user\afterlogin.php on line 10
+[02-Mar-2017 16:44:41 Asia/Taipei] PHP Fatal error:  Maximum execution time of 250 seconds exceeded in D:\TWAMPd\htdocs\graduationProject\user\afterlogin.php on line 11
+[02-Mar-2017 16:44:42 Asia/Taipei] PHP Fatal error:  Maximum execution time of 250 seconds exceeded in D:\TWAMPd\htdocs\graduationProject\user\afterlogin.php on line 11
+[02-Mar-2017 16:44:42 Asia/Taipei] PHP Fatal error:  Maximum execution time of 250 seconds exceeded in D:\TWAMPd\htdocs\graduationProject\user\afterlogin.php on line 11
+[02-Mar-2017 16:44:47 Asia/Taipei] PHP Fatal error:  Maximum execution time of 250 seconds exceeded in D:\TWAMPd\htdocs\graduationProject\user\afterlogin.php on line 11
+[02-Mar-2017 16:45:02 Asia/Taipei] PHP Fatal error:  Maximum execution time of 250 seconds exceeded in D:\TWAMPd\htdocs\graduationProject\user\afterlogin.php on line 11
+[02-Mar-2017 16:45:03 Asia/Taipei] PHP Fatal error:  Maximum execution time of 250 seconds exceeded in D:\TWAMPd\htdocs\graduationProject\user\afterlogin.php on line 11
+[02-Mar-2017 16:46:48 Asia/Taipei] PHP Fatal error:  Maximum execution time of 250 seconds exceeded in D:\TWAMPd\htdocs\graduationProject\user\afterlogin.php on line 11
+[02-Mar-2017 16:46:58 Asia/Taipei] PHP Fatal error:  Maximum execution time of 250 seconds exceeded in D:\TWAMPd\htdocs\graduationProject\user\afterlogin.php on line 11
+[02-Mar-2017 16:47:04 Asia/Taipei] PHP Fatal error:  Maximum execution time of 250 seconds exceeded in D:\TWAMPd\htdocs\graduationProject\user\afterlogin.php on line 11
+[02-Mar-2017 16:47:08 Asia/Taipei] PHP Fatal error:  Maximum execution time of 250 seconds exceeded in D:\TWAMPd\htdocs\graduationProject\user\afterlogin.php on line 11
+[02-Mar-2017 16:47:22 Asia/Taipei] PHP Fatal error:  Maximum execution time of 250 seconds exceeded in D:\TWAMPd\htdocs\graduationProject\user\afterlogin.php on line 11
+[02-Mar-2017 16:47:30 Asia/Taipei] PHP Fatal error:  Maximum execution time of 250 seconds exceeded in D:\TWAMPd\htdocs\graduationProject\user\afterlogin.php on line 11
+[02-Mar-2017 16:48:29 Asia/Taipei] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in D:\TWAMPd\htdocs\graduationProject\user\register.php on line 26

@@ -1,0 +1,7 @@
+[10-Mar-2017 15:38:15 Asia/Taipei] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in D:\TWAMPd\htdocs\graduationProject\game\gamesave_lock.php on line 2
+[10-Mar-2017 15:38:15 Asia/Taipei] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.;') in D:\TWAMPd\htdocs\graduationProject\game\gamesave_lock.php on line 2
+[10-Mar-2017 15:53:20 Asia/Taipei] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in D:\TWAMPd\htdocs\graduationProject\game\gamesave_lock.php on line 22
+[10-Mar-2017 15:54:14 Asia/Taipei] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in D:\TWAMPd\htdocs\graduationProject\game\gamesave_lock.php on line 22
+[10-Mar-2017 15:55:06 Asia/Taipei] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in D:\TWAMPd\htdocs\graduationProject\game\gamesave_lock.php on line 24
+[10-Mar-2017 15:55:44 Asia/Taipei] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in D:\TWAMPd\htdocs\graduationProject\game\gamesave_lock.php on line 24
+[10-Mar-2017 15:56:46 Asia/Taipei] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in D:\TWAMPd\htdocs\graduationProject\game\gamesave_lock.php on line 24

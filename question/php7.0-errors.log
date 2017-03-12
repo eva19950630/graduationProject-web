@@ -1,0 +1,14 @@
+[19-Feb-2017 15:16:46 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\question\random_question.php on line 17
+[19-Feb-2017 15:17:11 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\question\random_question.php on line 17
+[19-Feb-2017 15:17:51 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\question\random_question.php on line 17
+[19-Feb-2017 15:18:11 Asia/Taipei] PHP Warning:  include(question/random_question.php): failed to open stream: No such file or directory in D:\TWAMPd\htdocs\graduationProject\question\numberQues_normal.php on line 2
+[19-Feb-2017 15:18:11 Asia/Taipei] PHP Warning:  include(): Failed opening 'question/random_question.php' for inclusion (include_path='.;') in D:\TWAMPd\htdocs\graduationProject\question\numberQues_normal.php on line 2
+[19-Feb-2017 15:18:16 Asia/Taipei] PHP Warning:  include(question/random_question.php): failed to open stream: No such file or directory in D:\TWAMPd\htdocs\graduationProject\question\numberQues_normal.php on line 2
+[19-Feb-2017 15:18:16 Asia/Taipei] PHP Warning:  include(): Failed opening 'question/random_question.php' for inclusion (include_path='.;') in D:\TWAMPd\htdocs\graduationProject\question\numberQues_normal.php on line 2
+[19-Feb-2017 15:18:24 Asia/Taipei] PHP Warning:  include(/question/random_question.php): failed to open stream: No such file or directory in D:\TWAMPd\htdocs\graduationProject\question\numberQues_normal.php on line 2
+[19-Feb-2017 15:18:24 Asia/Taipei] PHP Warning:  include(): Failed opening '/question/random_question.php' for inclusion (include_path='.;') in D:\TWAMPd\htdocs\graduationProject\question\numberQues_normal.php on line 2
+[19-Feb-2017 15:18:35 Asia/Taipei] PHP Warning:  include(../random_question.php): failed to open stream: No such file or directory in D:\TWAMPd\htdocs\graduationProject\question\numberQues_normal.php on line 2
+[19-Feb-2017 15:18:35 Asia/Taipei] PHP Warning:  include(): Failed opening '../random_question.php' for inclusion (include_path='.;') in D:\TWAMPd\htdocs\graduationProject\question\numberQues_normal.php on line 2
+[19-Feb-2017 15:18:43 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\question\random_question.php on line 17
+[19-Feb-2017 15:20:24 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\question\random5_numquestion.php on line 11
+[21-Feb-2017 15:59:36 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\question\random_question.php on line 17
