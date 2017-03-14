@@ -40,12 +40,16 @@
 		</div>
 	</div>
 	<!-- end sidebar -->
-	
-	<!-- index page -->
-	<div class="rightside-page index">
-		首頁abc
+
+	<!-- analysis page -->
+	<div class="analysis">
+		統計分析<br>
+		帳號/遊戲<br>
+		帳號:登入次數(總登入時間)/答對次數/觀看教學次數/迷思概念(一人一頁,可下拉式選帳號)<br>
+		遊戲:被遊玩次數/?<br>
+		圖表
 	</div>
-	<!-- end index page -->
+	<!-- end analysis page -->
 
 
 </body>

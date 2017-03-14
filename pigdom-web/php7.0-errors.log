@@ -11,3 +11,26 @@
 [12-Mar-2017 21:07:25 Asia/Taipei] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in D:\TWAMPd\htdocs\graduationProject\pigdom-web\index.php on line 4
 [12-Mar-2017 21:07:27 Asia/Taipei] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in D:\TWAMPd\htdocs\graduationProject\pigdom-web\index.php on line 4
 [12-Mar-2017 21:07:28 Asia/Taipei] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in D:\TWAMPd\htdocs\graduationProject\pigdom-web\index.php on line 4
+[13-Mar-2017 12:16:18 Asia/Taipei] PHP Parse error:  syntax error, unexpected end of file in D:\TWAMPd\htdocs\graduationProject\pigdom-web\index.php on line 200
+[13-Mar-2017 12:51:02 Asia/Taipei] PHP Parse error:  syntax error, unexpected '}', expecting end of file in D:\TWAMPd\htdocs\graduationProject\pigdom-web\index.php on line 76
+[13-Mar-2017 12:51:10 Asia/Taipei] PHP Parse error:  syntax error, unexpected '}', expecting end of file in D:\TWAMPd\htdocs\graduationProject\pigdom-web\index.php on line 76
+[13-Mar-2017 12:51:12 Asia/Taipei] PHP Parse error:  syntax error, unexpected '}', expecting end of file in D:\TWAMPd\htdocs\graduationProject\pigdom-web\index.php on line 76
+[13-Mar-2017 13:11:23 Asia/Taipei] PHP Parse error:  syntax error, unexpected end of file in D:\TWAMPd\htdocs\graduationProject\pigdom-web\index.php on line 201
+[13-Mar-2017 13:23:28 Asia/Taipei] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in D:\TWAMPd\htdocs\graduationProject\pigdom-web\index.php on line 115
+[13-Mar-2017 13:25:28 Asia/Taipei] PHP Parse error:  syntax error, unexpected '}', expecting end of file in D:\TWAMPd\htdocs\graduationProject\pigdom-web\index.php on line 128
+[14-Mar-2017 17:15:16 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\pigdom-web\history.php on line 130
+[14-Mar-2017 17:15:36 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\pigdom-web\history.php on line 130
+[14-Mar-2017 17:15:37 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\pigdom-web\history.php on line 130
+[14-Mar-2017 17:16:04 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\pigdom-web\history.php on line 130
+[14-Mar-2017 17:16:05 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\pigdom-web\history.php on line 130
+[14-Mar-2017 17:16:12 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\pigdom-web\history.php on line 130
+[14-Mar-2017 17:16:12 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\pigdom-web\history.php on line 130
+[14-Mar-2017 17:16:37 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in D:\TWAMPd\htdocs\graduationProject\pigdom-web\history.php on line 122
+[14-Mar-2017 17:18:44 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\pigdom-web\history.php on line 130
+[14-Mar-2017 17:19:31 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\pigdom-web\history.php on line 130
+[14-Mar-2017 17:20:11 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in D:\TWAMPd\htdocs\graduationProject\pigdom-web\history.php on line 122
+[14-Mar-2017 17:21:17 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\pigdom-web\history.php on line 130
+[14-Mar-2017 17:22:25 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\pigdom-web\history.php on line 125
+[14-Mar-2017 17:22:47 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\pigdom-web\history.php on line 117
+[14-Mar-2017 17:23:13 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given in D:\TWAMPd\htdocs\graduationProject\pigdom-web\history.php on line 125
+[14-Mar-2017 17:23:41 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\pigdom-web\history.php on line 125

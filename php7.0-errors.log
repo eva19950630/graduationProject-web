@@ -108,3 +108,71 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in D:\TWAMPd\htdocs\graduationProject\numQues(quickanswer).php on line 28
+[13-Mar-2017 13:02:11 Asia/Taipei] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in D:\TWAMPd\htdocs\graduationProject\test.php:8
+Stack trace:
+#0 {main}
+  thrown in D:\TWAMPd\htdocs\graduationProject\test.php on line 8
+[13-Mar-2017 15:49:34 Asia/Taipei] PHP Fatal error:  Uncaught Error: Call to undefined function getValue() in D:\TWAMPd\htdocs\graduationProject\test.php:19
+Stack trace:
+#0 {main}
+  thrown in D:\TWAMPd\htdocs\graduationProject\test.php on line 19
+[14-Mar-2017 14:18:56 Asia/Taipei] PHP Parse error:  syntax error, unexpected 'syuan' (T_STRING) in D:\TWAMPd\htdocs\graduationProject\test.php on line 9
+[14-Mar-2017 14:21:01 Asia/Taipei] PHP Parse error:  syntax error, unexpected end of file in D:\TWAMPd\htdocs\graduationProject\test.php on line 42
+[14-Mar-2017 14:25:36 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\test.php on line 28
+[14-Mar-2017 14:26:26 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\test.php on line 28
+[14-Mar-2017 14:26:27 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\test.php on line 28
+[14-Mar-2017 14:26:52 Asia/Taipei] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in D:\TWAMPd\htdocs\graduationProject\test.php:14
+Stack trace:
+#0 {main}
+  thrown in D:\TWAMPd\htdocs\graduationProject\test.php on line 14
+[14-Mar-2017 14:51:53 Asia/Taipei] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in D:\TWAMPd\htdocs\graduationProject\test.php on line 43
+[14-Mar-2017 14:52:05 Asia/Taipei] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in D:\TWAMPd\htdocs\graduationProject\test.php on line 43
+[14-Mar-2017 14:52:51 Asia/Taipei] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in D:\TWAMPd\htdocs\graduationProject\test.php on line 49
+[14-Mar-2017 14:52:51 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in D:\TWAMPd\htdocs\graduationProject\test.php on line 59
+[14-Mar-2017 14:53:08 Asia/Taipei] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in D:\TWAMPd\htdocs\graduationProject\test.php on line 49
+[14-Mar-2017 14:53:08 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in D:\TWAMPd\htdocs\graduationProject\test.php on line 59
+[14-Mar-2017 14:58:59 Asia/Taipei] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in D:\TWAMPd\htdocs\graduationProject\test.php on line 45
+[14-Mar-2017 14:59:24 Asia/Taipei] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in D:\TWAMPd\htdocs\graduationProject\test.php on line 45
+[14-Mar-2017 14:59:25 Asia/Taipei] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in D:\TWAMPd\htdocs\graduationProject\test.php on line 45
+[14-Mar-2017 14:59:49 Asia/Taipei] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in D:\TWAMPd\htdocs\graduationProject\test.php on line 47
+[14-Mar-2017 14:59:49 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in D:\TWAMPd\htdocs\graduationProject\test.php on line 62
+[14-Mar-2017 14:59:52 Asia/Taipei] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in D:\TWAMPd\htdocs\graduationProject\test.php on line 47
+[14-Mar-2017 14:59:52 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in D:\TWAMPd\htdocs\graduationProject\test.php on line 62
+[14-Mar-2017 15:00:49 Asia/Taipei] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in D:\TWAMPd\htdocs\graduationProject\test.php on line 46
+[14-Mar-2017 15:00:49 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in D:\TWAMPd\htdocs\graduationProject\test.php on line 58
+[14-Mar-2017 15:02:58 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\test.php on line 63
+[14-Mar-2017 15:03:06 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\test.php on line 63
+[14-Mar-2017 15:03:08 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\test.php on line 63
+[14-Mar-2017 15:04:23 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\test.php on line 63
+[14-Mar-2017 15:04:34 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\test.php on line 63
+[14-Mar-2017 15:04:35 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\test.php on line 63
+[14-Mar-2017 15:08:11 Asia/Taipei] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in D:\TWAMPd\htdocs\graduationProject\test.php on line 49
+[14-Mar-2017 15:08:11 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in D:\TWAMPd\htdocs\graduationProject\test.php on line 54
+[14-Mar-2017 15:08:11 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in D:\TWAMPd\htdocs\graduationProject\test.php on line 74
+[14-Mar-2017 15:08:38 Asia/Taipei] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in D:\TWAMPd\htdocs\graduationProject\test.php on line 26
+[14-Mar-2017 15:08:38 Asia/Taipei] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in D:\TWAMPd\htdocs\graduationProject\test.php on line 26
+[14-Mar-2017 15:08:38 Asia/Taipei] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in D:\TWAMPd\htdocs\graduationProject\test.php on line 26
+[14-Mar-2017 15:08:38 Asia/Taipei] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in D:\TWAMPd\htdocs\graduationProject\test.php on line 26
+[14-Mar-2017 15:08:38 Asia/Taipei] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in D:\TWAMPd\htdocs\graduationProject\test.php on line 50
+[14-Mar-2017 15:08:38 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in D:\TWAMPd\htdocs\graduationProject\test.php on line 55
+[14-Mar-2017 15:08:38 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in D:\TWAMPd\htdocs\graduationProject\test.php on line 75
+[14-Mar-2017 15:11:47 Asia/Taipei] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in D:\TWAMPd\htdocs\graduationProject\test.php on line 45
+[14-Mar-2017 15:11:47 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in D:\TWAMPd\htdocs\graduationProject\test.php on line 50
+[14-Mar-2017 15:11:47 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in D:\TWAMPd\htdocs\graduationProject\test.php on line 70
+[14-Mar-2017 15:12:08 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in D:\TWAMPd\htdocs\graduationProject\test.php on line 67
+[14-Mar-2017 15:13:55 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\test.php on line 71
+[14-Mar-2017 15:14:09 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\test.php on line 66
+[14-Mar-2017 15:14:31 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\test.php on line 71
+[14-Mar-2017 15:14:32 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\test.php on line 71
+[14-Mar-2017 15:14:34 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\test.php on line 71
+[14-Mar-2017 15:16:04 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\test.php on line 72
+[14-Mar-2017 15:16:06 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\test.php on line 72
+[14-Mar-2017 15:17:02 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\test.php on line 76
+[14-Mar-2017 15:17:07 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\test.php on line 76
+[14-Mar-2017 15:17:08 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\test.php on line 76
+[14-Mar-2017 15:17:10 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\test.php on line 76
+[14-Mar-2017 15:17:32 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\test.php on line 76
+[14-Mar-2017 15:17:57 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\test.php on line 76
+[14-Mar-2017 15:18:41 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\test.php on line 76
+[14-Mar-2017 15:18:57 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\test.php on line 76
+[14-Mar-2017 17:06:06 Asia/Taipei] PHP Parse error:  syntax error, unexpected ')' in D:\TWAMPd\htdocs\graduationProject\test.php on line 55

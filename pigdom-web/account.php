@@ -40,13 +40,63 @@
 		</div>
 	</div>
 	<!-- end sidebar -->
-	
-	<!-- index page -->
-	<div class="rightside-page index">
-		首頁abc
-	</div>
-	<!-- end index page -->
 
+<?php
+// GET user data
+$data_user = "SELECT * FROM user";
+$userdata = mysqli_query($Link, $data_user);
+
+// GET username data
+$data_username = "SELECT username FROM user";
+$usernamedata = mysqli_query($Link, $data_username);
+?>
+
+	<!-- account page -->
+	<div class="account">
+		<!-- account select options -->
+		<div class="account-select">
+			<div class="container">
+				<div class="col-md-4">
+					<form>
+					選擇帳號：
+					<select name="select-account" class="selectbox">
+					<?php while ($userrow = mysqli_fetch_array($usernamedata)) { ?>
+						<option value=<?php $userrow[0] ?>><?php echo $userrow[0] ?></option>
+					<?php } ?>
+					</select>
+					</form>
+				</div>
+				<div class="col-md-4">
+					<button type="button" class="btn btn-default">全部資料</button>
+				</div>
+			</div>
+		</div> <!-- end account-select -->
+		<!-- account record table -->
+		<div class="account-recordtable">
+			<table border="1">
+				<tr class="table-head">
+	                <td>編號</td>
+	                <td>學生帳號</td>
+	                <td>學生密碼</td>
+	                <td>登入次數</td>
+	            </tr>
+	            <?php
+				$i = 1;
+				while ($row = mysqli_fetch_array($userdata)) {
+				?>
+	            <tr>
+	                <td><?php echo $i ?></td>
+	                <td><?php echo $row[1]; ?></td>
+	                <td><?php echo $row[2]; ?></td>
+	                <td><?php echo $row[3]; ?></td>
+	            </tr>
+	            <?php 
+	            $i++;
+	            } ?>
+	        </table>
+		</div>
+	</div>
+	<!-- end account page -->
 
 </body>
 
