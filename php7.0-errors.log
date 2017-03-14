@@ -176,3 +176,23 @@ Stack trace:
 [14-Mar-2017 15:18:41 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\test.php on line 76
 [14-Mar-2017 15:18:57 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\test.php on line 76
 [14-Mar-2017 17:06:06 Asia/Taipei] PHP Parse error:  syntax error, unexpected ')' in D:\TWAMPd\htdocs\graduationProject\test.php on line 55
+[14-Mar-2017 18:07:21 Asia/Taipei] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in D:\TWAMPd\htdocs\graduationProject\gameRecord.php on line 15
+[14-Mar-2017 18:09:39 Asia/Taipei] PHP Warning:  mysqli_connect(): (HY000/1049): Unknown database 'graduction_project' in D:\TWAMPd\htdocs\graduationProject\gameRecord.php on line 15
+[14-Mar-2017 18:10:07 Asia/Taipei] PHP Warning:  mysqli_connect(): (HY000/1049): Unknown database 'graduaction_project' in D:\TWAMPd\htdocs\graduationProject\gameRecord.php on line 15
+[14-Mar-2017 18:10:19 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\gameRecord.php on line 26
+[14-Mar-2017 18:10:45 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects exactly 1 parameter, 2 given in D:\TWAMPd\htdocs\graduationProject\gameRecord.php on line 26
+[14-Mar-2017 18:10:46 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects exactly 1 parameter, 2 given in D:\TWAMPd\htdocs\graduationProject\gameRecord.php on line 26
+[14-Mar-2017 18:10:52 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\gameRecord.php on line 26
+[14-Mar-2017 18:11:37 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\gameRecord.php on line 26
+[14-Mar-2017 18:13:10 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\gameRecord.php on line 29
+[14-Mar-2017 18:13:12 Asia/Taipei] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\gameRecord.php on line 29
+[14-Mar-2017 18:21:40 Asia/Taipei] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in D:\TWAMPd\htdocs\graduationProject\gameRecord.php on line 34
+[14-Mar-2017 22:53:11 Asia/Taipei] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in D:\TWAMPd\htdocs\graduationProject\test.php on line 28
+[14-Mar-2017 22:53:22 Asia/Taipei] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in D:\TWAMPd\htdocs\graduationProject\test.php on line 28
+[14-Mar-2017 22:53:23 Asia/Taipei] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in D:\TWAMPd\htdocs\graduationProject\test.php on line 28
+[14-Mar-2017 22:53:42 Asia/Taipei] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in D:\TWAMPd\htdocs\graduationProject\test.php on line 27
+[14-Mar-2017 22:53:57 Asia/Taipei] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in D:\TWAMPd\htdocs\graduationProject\test.php on line 27
+[14-Mar-2017 22:59:14 Asia/Taipei] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in D:\TWAMPd\htdocs\graduationProject\test.php on line 28
+[14-Mar-2017 22:59:56 Asia/Taipei] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in D:\TWAMPd\htdocs\graduationProject\test.php on line 28
+[14-Mar-2017 23:00:06 Asia/Taipei] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in D:\TWAMPd\htdocs\graduationProject\test.php on line 28
+[14-Mar-2017 23:00:07 Asia/Taipei] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in D:\TWAMPd\htdocs\graduationProject\test.php on line 28

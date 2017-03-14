@@ -45,52 +45,17 @@
 // GET username data
 $data_username = "SELECT username FROM user";
 $usernamedata = mysqli_query($Link, $data_username);
-?>
 
-	<!-- history page -->
-	<div class="history">
-		<!-- account / game select options -->
-		<div class="history-select">
-			<div class="container">
-				<div class="col-md-4">
-					<form method="post" name="form1" action="">
-					選擇帳號：
-					<select name="select1" class="selectbox">
-						<option value="alluser">全部學生</option>
-					<?php while ($userrow = mysqli_fetch_array($usernamedata)) { ?>	
-						<option value=<?php echo $userrow[0] ?>><?php echo $userrow[0] ?></option>
-					<?php } ?>
-					</select>
-				</div>
-				<div class="col-md-4">
-					選擇遊戲：
-					<select name="select2" class="selectbox">
-						<option value="allgame">全部遊戲</option>
-						<option value="大家來解鎖">大家來解鎖</option>
-						<option value="大家來撈魚">大家來撈魚</option>
-						<option value="大家來蓋章">大家來蓋章</option>
-						<option value="大家來平衡">大家來平衡</option>
-						<option value="大家來買糖">大家來買糖</option>
-					</select>
-				</div>
-				<div class="col-md-4">
-					<input type="submit" name="Submit" value="篩選">
-				</div>
-					</form>
-			</div>
-		</div> <!-- end history-select -->
-
-<?php
 if ($_POST) {
-	echo $_POST['select1'];
-	echo '</br>';
-	echo $_POST['select2'];
+	// echo $_POST['select1'];
+	// echo '</br>';
+	// echo $_POST['select2'];
 	$selectuser = $_POST['select1'];
 	$selectgame = $_POST['select2'];
 } else {
-	echo "no select user";
-	echo '</br>';
-	echo "no select game";
+	// echo "no select user";
+	// echo '</br>';
+	// echo "no select game";
 	$selectuser = "alluser";
 	$selectgame = "allgame";
 }
@@ -108,6 +73,46 @@ if ($selectuser == "alluser" && $selectgame == "allgame") {
 	$recorddata = mysqli_query($Link, $data_gamerecord);
 }
 ?>
+
+	<!-- history page -->
+	<div class="history">
+		<!-- account / game select options -->
+		<div class="history-select">
+			<div class="container">
+				<div class="col-md-4">
+					<form method="post" name="form1" action="">
+					選擇帳號：
+					<select name="select1" class="selectbox">
+						<option value="alluser">全部學生</option>
+						<?php while ($userrow = mysqli_fetch_array($usernamedata)) { ?>
+							<?php if($userrow[0] == $selectuser) : ?>
+								<option value=<?php echo $userrow[0] ?> selected><?php echo $userrow[0] ?></option>
+							<?php else : ?>
+								<option value=<?php echo $userrow[0] ?>><?php echo $userrow[0] ?></option>
+							<?php endif; ?>
+						<?php } ?>
+					</select>
+				</div>
+				<div class="col-md-4">
+					選擇遊戲：
+					<select name="select2" class="selectbox">
+						<option value="allgame">全部遊戲</option>
+						<?php $gamearray=array("大家來解鎖", "大家來撈魚", "大家來蓋章", "大家來平衡", "大家來買糖"); 
+						for ($i = 0; $i < count($gamearray); $i++) { ?>
+							<?php if($gamearray[$i] == $selectgame) : ?>
+								<option value=<?php echo $gamearray[$i]?> selected><?php echo $gamearray[$i]?></option>
+							<?php else : ?>
+								<option value=<?php echo $gamearray[$i]?>><?php echo $gamearray[$i]?></option>
+							<?php endif; ?>
+						<?php } ?>
+					</select>
+				</div>
+				<div class="col-md-4">
+					<input type="submit" name="Submit" value="篩選" class="btn btn-default filter" style="outline-color: #f2db63;">
+				</div>
+					</form>
+			</div>
+		</div> <!-- end history-select -->
 
 		<!-- game record table -->
 		<div class="history-recordtable">

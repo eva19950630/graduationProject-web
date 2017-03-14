@@ -18,26 +18,7 @@ $table = "test";
 <?php
 $userdata = "SELECT name FROM $table";
 $user = mysqli_query($Link, $userdata);
-?>
 
-	<form method="post" name="form1" action="">
-	<select name="select1" class="selectbox">
-		<option value="alluser">全部學生</option>
-	<?php while ($userrow = mysqli_fetch_array($user)) { ?>
-		<option value=<?php echo $userrow[0] ?>><?php echo $userrow[0] ?></option>
-	<?php } ?>
-	</select>
-	<select name="select2" class="selectbox">
-		<option value="allgrade">全部等級</option>
-		<option value="A">A</option>
-		<option value="B">B</option>
-		<option value="C">C</option>
-		<option value="F">F</option>
-	</select>
-	<input type="submit" name="Submit" value="提交">
-	</form>
-
-<?php
 if ($_POST) {
 	echo $_POST['select1'];
 	echo '</br>';
@@ -66,6 +47,37 @@ if ($selectuser == "alluser" && $selectgrade == "allgrade") {
 }
 ?>
 
+	<form method="post" name="form1" action="">
+	<?php echo $selectuser.'</br>'; ?>
+		<select name="select1" class="selectbox" id="select1">
+			<option value="alluser">全部學生</option>
+		<?php while ($userrow = mysqli_fetch_array($user)) { ?>
+			<?php if($userrow[0] == $selectuser) : ?>
+				<option value=<?php echo $userrow[0]?> selected><?php echo $userrow[0] ?></option>
+			<?php else : ?>
+				<option value=<?php echo $userrow[0]?>><?php echo $userrow[0] ?></option>
+			<?php endif; ?>
+		<?php } ?>
+		</select>
+
+	<select name="select2" class="selectbox">
+		<option value="allgrade">全部等級</option>
+		<?php $a=array("A","B","C","F"); 
+		for ($i = 0; $i < count($a); $i++) { ?>
+			<?php if($a[$i] == $selectgrade) : ?>
+				<option value=<?php echo $a[$i]?> selected><?php echo $a[$i]?></option>
+			<?php else : ?>
+				<option value=<?php echo $a[$i]?>><?php echo $a[$i]?></option>
+			<?php endif; ?>
+		<?php } ?>
+		<!-- <option value="A">A</option>
+		<option value="B">B</option>
+		<option value="C">C</option>
+		<option value="F">F</option> -->
+	</select>
+	<input type="submit" name="Submit" id="submit" value="提交">
+	</form>
+
 	<table border='1'>
 	    <tr>
 	        <td>id</td>
@@ -85,8 +97,8 @@ if ($selectuser == "alluser" && $selectgrade == "allgrade") {
 	    ?>
 	</table>
 
-
 </body>
+
 
 </html>
 

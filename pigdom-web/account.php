@@ -42,13 +42,25 @@
 	<!-- end sidebar -->
 
 <?php
-// GET user data
-$data_user = "SELECT * FROM user";
-$userdata = mysqli_query($Link, $data_user);
-
 // GET username data
 $data_username = "SELECT username FROM user";
 $usernamedata = mysqli_query($Link, $data_username);
+
+if ($_POST) {
+	// echo $_POST['select1'];
+	$selectuser = $_POST['select1'];
+} else {
+	// echo "no select user";
+	$selectuser = "alluser";
+}
+// GET user data
+if ($selectuser == "alluser") {
+	$data_user = "SELECT * FROM user";
+	$userdata = mysqli_query($Link, $data_user);
+} else {
+	$data_user = "SELECT * FROM user where username = '$selectuser'";
+	$userdata = mysqli_query($Link, $data_user);
+}
 ?>
 
 	<!-- account page -->
@@ -57,20 +69,26 @@ $usernamedata = mysqli_query($Link, $data_username);
 		<div class="account-select">
 			<div class="container">
 				<div class="col-md-4">
-					<form>
+					<form method="post" name="form1" action="">
 					選擇帳號：
-					<select name="select-account" class="selectbox">
-					<?php while ($userrow = mysqli_fetch_array($usernamedata)) { ?>
-						<option value=<?php $userrow[0] ?>><?php echo $userrow[0] ?></option>
-					<?php } ?>
+					<select name="select1" class="selectbox">
+						<option value="alluser">全部學生</option>
+						<?php while ($userrow = mysqli_fetch_array($usernamedata)) { ?>
+							<?php if($userrow[0] == $selectuser) : ?>
+								<option value=<?php echo $userrow[0] ?> selected><?php echo $userrow[0] ?></option>
+							<?php else : ?>
+								<option value=<?php echo $userrow[0] ?>><?php echo $userrow[0] ?></option>
+							<?php endif; ?>
+						<?php } ?>
 					</select>
-					</form>
 				</div>
 				<div class="col-md-4">
-					<button type="button" class="btn btn-default">全部資料</button>
+					<input type="submit" name="Submit" value="篩選" class="btn btn-default filter" style="outline-color: #f2db63;">
 				</div>
+					</form>
 			</div>
 		</div> <!-- end account-select -->
+
 		<!-- account record table -->
 		<div class="account-recordtable">
 			<table border="1">
