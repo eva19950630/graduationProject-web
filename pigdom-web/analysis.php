@@ -43,11 +43,32 @@
 
 	<!-- analysis page -->
 	<div class="analysis">
-		統計分析<br>
-		帳號/遊戲<br>
-		帳號:登入次數(總登入時間)/答對次數/觀看教學次數/迷思概念(一人一頁,可下拉式選帳號)<br>
-		遊戲:被遊玩次數/?<br>
-		圖表
+		<div class="contition-title">分析條件：</div>
+		
+		<ul class="tabs">
+		  <li class="active" rel="tab1">帳號</li>
+		  <li rel="tab2">遊戲</li>
+		</ul>
+		<div class="tab_container">
+		  <h3 class="d_active tab_drawer_heading" rel="tab1">帳號</h3>
+		  <div id="tab1" class="tab_content">
+		  <h2>Tab 1 content</h2>
+		    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac metus augue.</p>
+		  </div>
+		  <!-- #tab1 -->
+		  <h3 class="tab_drawer_heading" rel="tab2">遊戲</h3>
+		  <div id="tab2" class="tab_content">
+		  <h2>Tab 2 content</h2>
+		    <p>Nunc dui velit, scelerisque eu placerat volutpat, dapibus eu nisi. Vivamus eleifend vestibulum odio non vulputate.</p>
+		  </div>
+		  <!-- #tab2 -->
+		</div>
+
+		<!-- analysis content -->
+		<div class="analysis-content">
+
+		</div> <!-- end analysis content -->
+
 	</div>
 	<!-- end analysis page -->
 
