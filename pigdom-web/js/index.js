@@ -31,6 +31,7 @@ $(document).ready(function() {
 //     })
 // });
 
+/*analysis*/
  // tabbed content
     // http://www.entheosweb.com/tutorials/css/tabs.asp
     $(".tab_content").hide();
@@ -69,3 +70,14 @@ $(document).ready(function() {
        to add border to right side
        of last tab */
     $('ul.tabs li').last().addClass("tab_last");
+ 
+ //chart
+$(function() {
+  $(".chart-bars li .bar").each( function( key, bar ) {
+    var percentage = $(this).data('percentage');
+    
+    $(this).animate({
+      'height' : percentage + '%'
+    }, 1000);
+  });
+});

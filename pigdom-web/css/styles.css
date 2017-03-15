@@ -9,6 +9,7 @@ body {
 	overflow: hidden;
 }
 
+
 /*sidebar*/
 .sidebar {
 	-moz-box-sizing: border-box;
@@ -49,11 +50,13 @@ body {
 	font-size: 16px;
 }
 
+
 /*rightside-page*/
 .rightside-page {
 	position: relative;
 	/*width: 75%;*/
 }
+
 
 /*history*/
 .history-select {
@@ -91,7 +94,15 @@ body {
 	font-weight: bold;
 }
 
+
 /*analysis*/
+.contition-title {
+	position: absolute;
+	left: 30vw;
+	top: 5vh;
+	font-size: 24px;
+}
+
 ul.tabs {
 	margin: 0;
 	padding: 0;
@@ -102,7 +113,7 @@ ul.tabs {
 	width: 65%;
 	position: absolute;
 	left: 30vw;
-	top: 12vh;
+	top: 11vh;
 }
 ul.tabs li {
 	float: left;
@@ -110,7 +121,7 @@ ul.tabs li {
 	cursor: pointer;
 	padding: 18px 21px;
 	width: 50%;
-	height: 45px;
+	height: 50px;
 	line-height: 8px;
 	border-top: 1px solid #333;
 	border-left: 1px solid #333;
@@ -144,9 +155,11 @@ ul.tabs li.active {
 	width: 65%;
 	height: 75%;
 	background: #fff;
-	overflow: auto;
+	/*overflow: auto;*/
+	overflow-x: hidden;
+	overflow-y: hidden;
 	position: absolute;
-	top: 18vh;
+	top: 17vh;
 	left: 30vw;
 }
 .tab_content {
@@ -156,6 +169,167 @@ ul.tabs li.active {
 .tab_drawer_heading {
 	display: none;
 }
+
+.cond-select {
+	margin: 25px 0 0 40px;
+}
+
+.cond-chart {
+	/*background-color: #999;*/
+	position: absolute;	
+	/*border: 1px solid #999;*/
+	width: 95%;
+	height: 75%;
+	font-size: 12px;
+}
+.cond-chart.account {
+	margin: 25px 0 0 10px;
+}
+.cond-chart.game {
+	margin: 25px 0 0 0;
+}
+.chart {
+	height: 300px;
+	margin: 50px auto 0;
+	display: block;
+}
+.chart.account {
+	width: 900px;
+}
+.chart.game {
+	width: 580px;
+}
+.chart .chart-numbers {
+	width: 40px;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	float: left;
+}
+.chart .chart-numbers li {
+	text-align: right;
+	padding-right: 1em;
+	list-style: none;
+	height: 30px;
+	border-bottom: 1px solid #444;
+	position: relative;
+	bottom: 30px;
+}
+.chart .chart-numbers li:last-child {
+	height: 30px;
+}
+.chart .chart-numbers li span {
+	color: #333;
+	position: absolute;
+	bottom: 0;
+	right: 5px;
+}
+.chart .chart-bars {
+	display: inline-block;
+	background: rgba(0, 0, 0, 0.2);
+	height: 300px;
+	padding: 0;
+	margin: 0;
+	box-shadow: 0 0 0 1px #444;
+}
+.chart .chart-bars.account {
+	width: 850px;
+}
+.chart .chart-bars.game {
+	width: 530px;
+}
+.chart .chart-bars li {
+	display: table-cell;
+	width: 100px;
+	height: 300px;
+	margin: 0;
+	text-align: center;
+	position: relative;
+}
+.chart .chart-bars li .bar {
+	display: block;
+	background: #556270;
+	position: absolute;
+	bottom: 0;
+}
+.chart .chart-bars.account li .bar {
+	margin-left: 10px;
+}
+.chart .chart-bars.game li .bar {
+	margin-left: 40px;
+}
+.chart .chart-bars.account li .bar {
+	width: 10px;
+}
+.chart .chart-bars.game li .bar {
+	width: 50px;
+}
+.chart .chart-bars li .bar:hover {
+	background: #fff;
+	/*opacity: 0.7;*/
+	cursor: pointer;
+}
+.chart .chart-bars li .bar:hover:before {
+	color: #556270;
+	content: attr(data-percentage) '%';
+	position: relative;
+	bottom: 20px;
+}
+.chart .chart-bars.account li .bar:hover:before {
+	left: -0.5em;
+}
+.chart .chart-bars li span {
+	color: #333;
+	width: 100%;
+	position: absolute;
+	text-align: center;
+}
+.chart .chart-bars.account li span {
+	-webkit-transform: rotate(-45deg);    /* for Chrome || Safari */
+	-moz-transform: rotate(-45deg);       /* for Firefox */
+	-ms-transform: rotate(-45deg);        /* for IE */
+	-o-transform: rotate(-45deg);         /* for Opera */
+	left: 0;
+	bottom: -2.5em;
+}
+.chart .chart-bars.game li span {
+	left: 1.2em;
+	bottom: -2em;
+}
+.y-axis-mark {
+	writing-mode: vertical-lr;
+	-webkit-writing-mode: vertical-lr;
+	-moz-writing-mode: vertical-lr;
+	-ms-writing-mode: vertical-lr;
+	-o-writing-mode: vertical-lr;
+	position: absolute;
+	background-color: #999;
+	color: #fff;
+	padding: 6px 3px;
+	letter-spacing: 1px;
+	top: 20vh;
+}
+.y-axis-mark.account {
+	left: -5px;
+}
+.y-axis-mark.game {
+	left: 10vw;
+}
+.x-axis-mark {
+	position: absolute;
+	background-color: #999;
+	color: #fff;
+	padding: 3px 6px;
+	letter-spacing: 1px;
+}
+.x-axis-mark.account {
+	margin: 40px 0 0 445px;
+}
+.x-axis-mark.game {
+	margin: 30px 0 0 455px;
+}
+
 
 /*account*/
 .account-select {

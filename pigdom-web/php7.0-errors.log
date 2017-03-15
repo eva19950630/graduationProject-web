@@ -34,3 +34,59 @@
 [14-Mar-2017 17:22:47 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\pigdom-web\history.php on line 117
 [14-Mar-2017 17:23:13 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given in D:\TWAMPd\htdocs\graduationProject\pigdom-web\history.php on line 125
 [14-Mar-2017 17:23:41 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\pigdom-web\history.php on line 125
+[15-Mar-2017 19:26:34 Asia/Taipei] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 3
+[15-Mar-2017 19:26:34 Asia/Taipei] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 4
+[15-Mar-2017 19:26:34 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 5
+[15-Mar-2017 19:26:34 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 6
+[15-Mar-2017 19:26:51 Asia/Taipei] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 3
+[15-Mar-2017 19:26:51 Asia/Taipei] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 4
+[15-Mar-2017 19:26:51 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 5
+[15-Mar-2017 19:26:51 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 6
+[15-Mar-2017 19:27:13 Asia/Taipei] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 3
+[15-Mar-2017 19:27:13 Asia/Taipei] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 4
+[15-Mar-2017 19:27:13 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 5
+[15-Mar-2017 19:27:13 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 6
+[15-Mar-2017 19:27:14 Asia/Taipei] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 3
+[15-Mar-2017 19:27:14 Asia/Taipei] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 4
+[15-Mar-2017 19:27:14 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 5
+[15-Mar-2017 19:27:14 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 6
+[15-Mar-2017 19:27:30 Asia/Taipei] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 3
+[15-Mar-2017 19:27:30 Asia/Taipei] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 4
+[15-Mar-2017 19:27:30 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 5
+[15-Mar-2017 19:27:30 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 6
+[15-Mar-2017 19:27:31 Asia/Taipei] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 3
+[15-Mar-2017 19:27:31 Asia/Taipei] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 4
+[15-Mar-2017 19:27:31 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 5
+[15-Mar-2017 19:27:31 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 6
+[15-Mar-2017 19:27:40 Asia/Taipei] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 3
+[15-Mar-2017 19:27:40 Asia/Taipei] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 4
+[15-Mar-2017 19:27:40 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 5
+[15-Mar-2017 19:27:40 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 6
+[15-Mar-2017 19:27:48 Asia/Taipei] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 3
+[15-Mar-2017 19:27:48 Asia/Taipei] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 4
+[15-Mar-2017 19:27:48 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 5
+[15-Mar-2017 19:27:48 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 6
+[15-Mar-2017 19:27:49 Asia/Taipei] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 3
+[15-Mar-2017 19:27:49 Asia/Taipei] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 4
+[15-Mar-2017 19:27:49 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 5
+[15-Mar-2017 19:27:49 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 6
+[15-Mar-2017 19:28:35 Asia/Taipei] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 3
+[15-Mar-2017 19:28:35 Asia/Taipei] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 4
+[15-Mar-2017 19:28:35 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 5
+[15-Mar-2017 19:28:35 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 6
+[15-Mar-2017 19:30:31 Asia/Taipei] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 3
+[15-Mar-2017 19:30:31 Asia/Taipei] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 4
+[15-Mar-2017 19:30:31 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 5
+[15-Mar-2017 19:30:31 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 6
+[15-Mar-2017 20:57:43 Asia/Taipei] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 3
+[15-Mar-2017 20:57:43 Asia/Taipei] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 4
+[15-Mar-2017 20:57:43 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 5
+[15-Mar-2017 20:57:43 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 6
+[15-Mar-2017 21:01:59 Asia/Taipei] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 3
+[15-Mar-2017 21:01:59 Asia/Taipei] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 4
+[15-Mar-2017 21:01:59 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 5
+[15-Mar-2017 21:01:59 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 6
+[15-Mar-2017 21:28:16 Asia/Taipei] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 3
+[15-Mar-2017 21:28:16 Asia/Taipei] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 4
+[15-Mar-2017 21:28:16 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 5
+[15-Mar-2017 21:28:16 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 6
