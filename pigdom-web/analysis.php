@@ -1,3 +1,4 @@
+<?php include("../db_connect.php"); ?>
 
 <!DOCTYPE html>
 <html>
@@ -49,33 +50,35 @@
 		<ul class="tabs">
 			<li class="active" rel="tab1">帳號</li>
 			<li rel="tab2">遊戲</li>
+			<li rel="tab3">迷思概念</li>
 		</ul>
 		<div class="tab_container">
+
+<?php
+$perarray=array("100%", "90%", "80%", "70%", "60%", "50%", "40%", "30%", "20%", "10%", "0%");
+
+// GET username data
+$data_username = "SELECT username FROM user";
+$usernamedata = mysqli_query($Link, $data_username);
+
+?>			
+
 			<!-- tab1: account -->
 			<h3 class="d_active tab_drawer_heading" rel="tab1">帳號</h3>
 			<div id="tab1" class="tab_content">
 				<!-- condition select -->
-				<div class="cond-select">
+				<div class="cond-select account">
 					<div class="container">
 						<div class="col-md-4">
 							<form method="post" name="form1" action="">
 							篩選條件：
 							<select name="select1" class="selectbox">
-								<option value="登入次數">登入次數</option>
-								<option value="答對次數">答對次數</option>
-								<option value="觀看補救教學次數">觀看補救教學次數</option>
-								<option value="使用APP時間">使用APP時間</option>
-								<option value="迷思概念">迷思概念</option>
+								<option value="答對率">答對率</option>
+								<option value="觀看補救教學比例">觀看補救教學比例</option>
 							</select>
 						</div>
 						<div class="col-md-4">
-							選擇帳號：
-							<select name="select2" class="selectbox">
-								<option value="alluser">全部學生</option>
-							</select>
-						</div>
-						<div class="col-md-4">
-							<input type="submit" name="Submit" value="完成" class="btn btn-default filter" style="outline-color: #f2db63;">
+							<input type="submit" name="Submit" value="生成圖表" class="btn btn-default filter" style="outline-color: #f2db63;">
 						</div>
 							</form>
 					</div>
@@ -85,77 +88,49 @@
 				<div class="cond-chart account">
 					<div class="chart account">
 						<ul class="chart-numbers account">
-							<li><span>100%</span></li>
-							<li><span>90%</span></li>
-							<li><span>80%</span></li>
-							<li><span>70%</span></li>
-							<li><span>60%</span></li>
-							<li><span>50%</span></li>
-							<li><span>40%</span></li>
-							<li><span>30%</span></li>
-							<li><span>20%</span></li>
-							<li><span>10%</span></li>
-							<li><span>0%</span></li>
+							<?php for ($i = 0; $i < count($perarray); $i++) { ?>
+								<li><span><?php echo $perarray[$i]?></span></li>
+							<?php } ?>
 						</ul>
 						<ul class="chart-bars account">
-							<li><div data-percentage="56" class="bar"></div><span>50101</span></li>
-							<li><div data-percentage="33" class="bar"></div><span>50102</span></li>
-							<li><div data-percentage="54" class="bar"></div><span>50103</span></li>
-							<li><div data-percentage="94" class="bar"></div><span>50104</span></li>
-							<li><div data-percentage="44" class="bar"></div><span>50105</span></li>
-							<li><div data-percentage="23" class="bar"></div><span>50106</span></li>
-							<li><div data-percentage="40" class="bar"></div><span>50107</span></li>
-							<li><div data-percentage="60" class="bar"></div><span>50108</span></li>
-							<li><div data-percentage="24" class="bar"></div><span>50109</span></li>
-							<li><div data-percentage="73" class="bar"></div><span>50110</span></li>
-							<li><div data-percentage="100" class="bar"></div><span>50111</span></li>
-							<li><div data-percentage="38" class="bar"></div><span>50112</span></li>
-							<li><div data-percentage="72" class="bar"></div><span>50113</span></li>
-							<li><div data-percentage="60" class="bar"></div><span>50114</span></li>
-							<li><div data-percentage="12" class="bar"></div><span>50115</span></li>
-							<li><div data-percentage="90" class="bar"></div><span>50116</span></li>
-							<li><div data-percentage="78" class="bar"></div><span>50117</span></li>
-							<li><div data-percentage="63" class="bar"></div><span>50118</span></li>
-							<li><div data-percentage="52" class="bar"></div><span>50119</span></li>
-							<li><div data-percentage="44" class="bar"></div><span>50120</span></li>
-							<li><div data-percentage="29" class="bar"></div><span>50121</span></li>
-							<li><div data-percentage="38" class="bar"></div><span>50122</span></li>
-							<li><div data-percentage="72" class="bar"></div><span>50123</span></li>
-							<li><div data-percentage="60" class="bar"></div><span>50124</span></li>
-							<li><div data-percentage="12" class="bar"></div><span>50125</span></li>
-							<li><div data-percentage="90" class="bar"></div><span>50126</span></li>
-							<li><div data-percentage="78" class="bar"></div><span>50127</span></li>
-							<li><div data-percentage="63" class="bar"></div><span>50128</span></li>
-							<li><div data-percentage="52" class="bar"></div><span>50129</span></li>
-							<li><div data-percentage="44" class="bar"></div><span>50130</span></li>
+							<?php while ($userrow = mysqli_fetch_array($usernamedata)) { ?>
+								<li><div data-percentage="56" class="bar"></div><span><?php echo $userrow[0] ?></span></li>
+							<?php } ?>
 						</ul>
 					</div>
 					<div class="y-axis-mark account">比例(%)</div>
 					<div class="x-axis-mark account">學生帳號</div>
 				</div> <!-- end analysis chart -->
 			</div> <!-- end tab1: account -->
+
+<?php
+$gamearray=array("大家來解鎖", "大家來撈魚", "大家來蓋章", "大家來平衡", "大家來買糖");
+
+?>
 			
 			<!-- tab2: game -->
 			<h3 class="tab_drawer_heading" rel="tab2">遊戲</h3>
 			<div id="tab2" class="tab_content">
-				<div class="cond-select">
+				<div class="cond-select game">
 					<div class="container">
 						<div class="col-md-4">
-							<form method="post" name="form1" action="">
+							<form method="post" name="form2" action="">
 							篩選條件：
-							<select name="select3" class="selectbox">
+							<select name="select2" class="selectbox">
 								<option value="被遊玩次數">被遊玩次數</option>
 								<option value="答題狀況">答題狀況</option>
 							</select>
 						</div>
 						<div class="col-md-4">
 							選擇遊戲：
-							<select name="select4" class="selectbox">
-								<option value="alluser">全部遊戲</option>
+							<select name="select3" class="selectbox">
+								<?php for ($i = 0; $i < count($gamearray); $i++) { ?>
+									<option value=<?php echo $gamearray[$i]?>><?php echo $gamearray[$i]?></option>
+								<?php } ?>
 							</select>
 						</div>
 						<div class="col-md-4">
-							<input type="submit" name="Submit" value="完成" class="btn btn-default filter" style="outline-color: #f2db63;">
+							<input type="submit" name="Submit" value="生成圖表" class="btn btn-default filter" style="outline-color: #f2db63;">
 						</div>
 							</form>
 					</div>
@@ -165,31 +140,80 @@
 				<div class="cond-chart game">
 					<div class="chart game">
 						<ul class="chart-numbers game">
-							<li><span>100%</span></li>
-							<li><span>90%</span></li>
-							<li><span>80%</span></li>
-							<li><span>70%</span></li>
-							<li><span>60%</span></li>
-							<li><span>50%</span></li>
-							<li><span>40%</span></li>
-							<li><span>30%</span></li>
-							<li><span>20%</span></li>
-							<li><span>10%</span></li>
-							<li><span>0%</span></li>
+							<?php for ($i = 0; $i < count($perarray); $i++) { ?>
+								<li><span><?php echo $perarray[$i]?></span></li>
+							<?php } ?>
 						</ul>
 						<ul class="chart-bars game">
-							<li><div data-percentage="56" class="bar"></div><span>大家來解鎖</span></li>
-							<li><div data-percentage="33" class="bar"></div><span>大家來撈魚</span></li>
-							<li><div data-percentage="54" class="bar"></div><span>大家來蓋章</span></li>
-							<li><div data-percentage="94" class="bar"></div><span>大家來平衡</span></li>
-							<li><div data-percentage="44" class="bar"></div><span>大家來買糖</span></li>
+							<?php for ($i = 0; $i < count($gamearray); $i++) { ?>
+								<li><div data-percentage="56" class="bar"></div><span><?php echo $gamearray[$i]?></span></li>
+							<?php } ?>
 						</ul>
 					</div>
 					<div class="y-axis-mark game">比例(%)</div>
 					<div class="x-axis-mark game">遊戲名稱</div>
 				</div> <!-- end analysis chart -->
 			</div> <!-- end tab2: game -->
+
+<?php
+$misarray=array("單純計算錯誤", "運算規則不熟悉", "應用問題列式能力不足", "擬題能力不足", "兩步驟問題的併式紀錄錯誤");
+
+// GET username data
+$data_username = "SELECT username FROM user";
+$usernamedata = mysqli_query($Link, $data_username);
+
+?>
+
+			<!-- tab3: misconception -->
+			<h3 class="tab_drawer_heading" rel="tab3">迷思概念</h3>
+			<div id="tab3" class="tab_content">
+				<div class="cond-select miscon">
+					<div class="container">
+						<div class="col-md-4">
+							<form method="post" name="form3" action="">
+							篩選條件：
+							<select name="select4" class="selectbox">
+								<?php for ($i = 0; $i < count($misarray); $i++) { ?>
+									<option value=<?php echo $misarray[$i]?>><?php echo $misarray[$i]?></option>
+								<?php } ?>
+							</select>
+						</div>
+						<div class="col-md-4">
+							選擇帳號：
+							<select name="select5" class="selectbox">
+								<?php while ($userrow = mysqli_fetch_array($usernamedata)) { ?>
+									<option value=<?php echo $userrow[0] ?>><?php echo $userrow[0] ?></option>
+								<?php } ?>
+							</select>
+						</div>
+						<div class="col-md-4">
+							<input type="submit" name="Submit" value="生成圖表" class="btn btn-default filter" style="outline-color: #f2db63;">
+						</div>
+							</form>
+					</div>
+				</div>
+
+				<!-- analysis chart -->
+				<div class="cond-chart miscon">
+					<div class="chart miscon">
+						<ul class="chart-numbers miscon">
+							<?php for ($i = 0; $i < count($perarray); $i++) { ?>
+								<li><span><?php echo $perarray[$i]?></span></li>
+							<?php } ?>
+						</ul>
+						<ul class="chart-bars miscon">
+							<?php for ($i = 0; $i < count($misarray); $i++) { ?>
+								<li><div data-percentage="56" class="bar"></div><span><?php echo $misarray[$i]?></span></li>
+							<?php } ?>
+						</ul>
+					</div>
+					<div class="y-axis-mark miscon">比例(%)</div>
+					<div class="x-axis-mark miscon">迷思概念</div>
+				</div> <!-- end analysis chart -->
+			</div> <!-- end tab3: misconception -->
+		
 		</div> <!-- end condition tab content -->
+
 
 	</div>
 	<!-- end analysis page -->
@@ -207,3 +231,4 @@
 
 </html>
 
+<?php mysqli_close($Link); ?>

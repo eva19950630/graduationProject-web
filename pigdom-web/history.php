@@ -136,16 +136,9 @@ if ($selectuser == "alluser" && $selectgame == "allgame") {
 	            ?>
 	            <tr>
 	                <td><?php echo $i ?></td>
-	                <td><?php echo $row[1]; ?></td>
-	                <td><?php echo $row[2]; ?></td>
-	                <td><?php echo $row[3]; ?></td>
-	                <td><?php echo $row[4]; ?></td>
-	                <td><?php echo $row[5]; ?></td>
-	                <td><?php echo $row[6]; ?></td>
-	                <td><?php echo $row[7]; ?></td>
-	                <td><?php echo $row[8]; ?></td>
-	                <td><?php echo $row[9]; ?></td>
-	                <td><?php echo $row[10]; ?></td>
+	                <?php for ($j = 1; $j < 11; $j++) { ?>
+	                	<td><?php echo $row[$j]; ?></td>
+	                <?php } ?>
 	            </tr>
 	            <?php 
 	            $i++;
