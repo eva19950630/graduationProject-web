@@ -61,6 +61,13 @@ $perarray=array("100%", "90%", "80%", "70%", "60%", "50%", "40%", "30%", "20%", 
 $data_username = "SELECT username FROM user";
 $usernamedata = mysqli_query($Link, $data_username);
 
+if ($_POST) {
+	echo $_POST['select1'];
+	$account_selectcond = $_POST['select1'];
+} else {
+	echo "答對率";
+	$account_selectcond = "答對率";
+}
 ?>			
 
 			<!-- tab1: account -->
@@ -73,8 +80,14 @@ $usernamedata = mysqli_query($Link, $data_username);
 							<form method="post" name="form1" action="">
 							篩選條件：
 							<select name="select1" class="selectbox">
-								<option value="答對率">答對率</option>
-								<option value="觀看補救教學比例">觀看補救教學比例</option>
+								<?php $account_cond_array=array("答對率", "觀看補救教學比例"); 
+								for ($i = 0; $i < count($account_cond_array); $i++) { ?>
+									<?php if($account_cond_array[$i] == $account_selectcond) : ?>
+										<option value=<?php echo $account_cond_array[$i]?> selected><?php echo $account_cond_array[$i] ?></option>
+									<?php else : ?>
+										<option value=<?php echo $account_cond_array[$i]?>><?php echo $account_cond_array[$i] ?></option>
+									<?php endif; ?>
+								<?php } ?>
 							</select>
 						</div>
 						<div class="col-md-4">

@@ -91,3 +91,4 @@
 [15-Mar-2017 21:28:16 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 5
 [15-Mar-2017 21:28:16 Asia/Taipei] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\Server\TWAMPd\htdocs\graduationProject-web\db_connect.php on line 6
 [16-Mar-2017 14:28:41 Asia/Taipei] PHP Parse error:  syntax error, unexpected 'mysqli_fetch_array' (T_STRING) in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis.php on line 64
+[16-Mar-2017 15:00:46 Asia/Taipei] PHP Parse error:  syntax error, unexpected end of file in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis.php on line 249
