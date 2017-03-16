@@ -29,7 +29,7 @@
 		<div class="sidebar-menu">
 			<ul class="sidebar-menu list">
 				<li><a href="history.php">歷程記錄</a></li>
-				<li><a href="analysis.php">統計分析</a></li>
+				<li><a href="analysis_account.php">統計分析</a></li>
 				<li><a href="account.php">帳號管理</a></li>
 				<li><a href="index.php">回到首頁</a></li>
 			</ul>

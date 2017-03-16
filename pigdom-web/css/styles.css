@@ -120,7 +120,7 @@ ul.tabs li {
 	margin: 0;
 	cursor: pointer;
 	padding: 18px 21px;
-	width: 33.333%;
+	width: 50%;
 	height: 50px;
 	line-height: 8px;
 	border-top: 1px solid #333;
@@ -134,11 +134,20 @@ ul.tabs li {
 	font-size: 24px;
 	letter-spacing: 2px;
 }
+ul.tabs li a {
+	color: #ccc;
+	text-decoration: none;
+}
+ul.tabs a li.active {
+	color: #333;
+}
 .tab_last {
 	border-right: 1px solid #333;
 }
 ul.tabs li:hover {
 	background-color: #ccc;
+}
+ul.tabs a:hover li {
 	color: #333;
 }
 ul.tabs li.active {
@@ -174,11 +183,9 @@ ul.tabs li.active {
 	/*background-color: #f0f0f0;*/
 	margin: 25px 0 0 40px;
 }
-.cond-select.account {
-	margin: 25px 0 0 230px;
-}
+.cond-select.account,
 .cond-select.miscon {
-	font-size: 18px;
+	margin: 25px 0 0 230px;
 }
 
 .cond-chart {
@@ -192,7 +199,6 @@ ul.tabs li.active {
 .cond-chart.account {
 	margin: 25px 0 0 10px;
 }
-.cond-chart.game,
 .cond-chart.miscon {
 	margin: 25px 0 0 0;
 }
@@ -204,7 +210,6 @@ ul.tabs li.active {
 .chart.account {
 	width: 900px;
 }
-.chart.game,
 .chart.miscon {
 	width: 650px;
 }
@@ -245,7 +250,6 @@ ul.tabs li.active {
 .chart .chart-bars.account {
 	width: 850px;
 }
-.chart .chart-bars.game,
 .chart .chart-bars.miscon {
 	width: 600px;
 }
@@ -266,14 +270,12 @@ ul.tabs li.active {
 .chart .chart-bars.account li .bar {
 	margin-left: 10px;
 }
-.chart .chart-bars.game li .bar,
 .chart .chart-bars.miscon li .bar {
 	margin-left: 75px;
 }
 .chart .chart-bars.account li .bar {
 	width: 10px;
 }
-.chart .chart-bars.game li .bar, 
 .chart .chart-bars.miscon li .bar {
 	width: 50px;
 }
@@ -305,10 +307,6 @@ ul.tabs li.active {
 	left: 0;
 	bottom: -2.5em;
 }
-.chart .chart-bars.game li span {
-	left: 4em;
-	bottom: -2em;
-}
 .chart .chart-bars.miscon li span {
 	/*background-color: #f0f0f0;*/
 	left: 6em;
@@ -331,7 +329,6 @@ ul.tabs li.active {
 .y-axis-mark.account {
 	left: -5px;
 }
-.y-axis-mark.game,
 .y-axis-mark.miscon {
 	left: 8vw;
 }
@@ -344,9 +341,6 @@ ul.tabs li.active {
 }
 .x-axis-mark.account {
 	margin: 40px 0 0 445px;
-}
-.x-axis-mark.game {
-	margin: 30px 0 0 455px;
 }
 .x-axis-mark.miscon {
 	margin: 55px 0 0 455px;
