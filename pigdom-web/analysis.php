@@ -106,8 +106,16 @@ if ($_POST) {
 							<?php } ?>
 						</ul>
 						<ul class="chart-bars account">
-							<?php while ($userrow = mysqli_fetch_array($usernamedata)) { ?>
-								<li><div data-percentage="56" class="bar"></div><span><?php echo $userrow[0] ?></span></li>
+							<?php while ($userrow = mysqli_fetch_array($usernamedata)) { 
+								// GET game data record
+								$data_gamerecord = "SELECT * FROM game_record where username = '$userrow[0]'";
+								$recorddata = mysqli_query($Link, $data_gamerecord); 
+								$usercount = 0;
+								while ($row = mysqli_fetch_array($recorddata)) {
+									$usercount++;
+								}
+							?>
+								<li><div data-percentage=<?php echo $usercount ?> class="bar"></div><span><?php echo $userrow[0] ?></span></li>
 							<?php } ?>
 						</ul>
 					</div>
