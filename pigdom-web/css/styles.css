@@ -64,7 +64,7 @@ body {
 	position: absolute;
 	max-width: 45vw;
 	top: 11vh;
-	left: 33vw;
+	left: 34vw;
 	/*margin: 80px 0 0 510px;*/
 }
 .selectbox {
@@ -78,9 +78,9 @@ body {
 	background-color: #fff;
 	position: absolute;
 	top: 22vh;
-	left: 32.5vw;
+	left: 30vw;
 	/*margin: 160px 0 0 500px;*/
-	width: 60vw;
+	width: 65vw;
 	height: 70vh;
 	font-size: 12px;
 	text-align: center;
@@ -120,7 +120,7 @@ ul.tabs li {
 	margin: 0;
 	cursor: pointer;
 	padding: 18px 21px;
-	width: 50%;
+	width: 33.333%;
 	height: 50px;
 	line-height: 8px;
 	border-top: 1px solid #333;
@@ -171,7 +171,14 @@ ul.tabs li.active {
 }
 
 .cond-select {
+	/*background-color: #f0f0f0;*/
 	margin: 25px 0 0 40px;
+}
+.cond-select.account {
+	margin: 25px 0 0 230px;
+}
+.cond-select.miscon {
+	font-size: 18px;
 }
 
 .cond-chart {
@@ -185,7 +192,8 @@ ul.tabs li.active {
 .cond-chart.account {
 	margin: 25px 0 0 10px;
 }
-.cond-chart.game {
+.cond-chart.game,
+.cond-chart.miscon {
 	margin: 25px 0 0 0;
 }
 .chart {
@@ -196,8 +204,9 @@ ul.tabs li.active {
 .chart.account {
 	width: 900px;
 }
-.chart.game {
-	width: 580px;
+.chart.game,
+.chart.miscon {
+	width: 650px;
 }
 .chart .chart-numbers {
 	width: 40px;
@@ -236,8 +245,9 @@ ul.tabs li.active {
 .chart .chart-bars.account {
 	width: 850px;
 }
-.chart .chart-bars.game {
-	width: 530px;
+.chart .chart-bars.game,
+.chart .chart-bars.miscon {
+	width: 600px;
 }
 .chart .chart-bars li {
 	display: table-cell;
@@ -256,13 +266,15 @@ ul.tabs li.active {
 .chart .chart-bars.account li .bar {
 	margin-left: 10px;
 }
-.chart .chart-bars.game li .bar {
-	margin-left: 40px;
+.chart .chart-bars.game li .bar,
+.chart .chart-bars.miscon li .bar {
+	margin-left: 75px;
 }
 .chart .chart-bars.account li .bar {
 	width: 10px;
 }
-.chart .chart-bars.game li .bar {
+.chart .chart-bars.game li .bar, 
+.chart .chart-bars.miscon li .bar {
 	width: 50px;
 }
 .chart .chart-bars li .bar:hover {
@@ -294,8 +306,14 @@ ul.tabs li.active {
 	bottom: -2.5em;
 }
 .chart .chart-bars.game li span {
-	left: 1.2em;
+	left: 4em;
 	bottom: -2em;
+}
+.chart .chart-bars.miscon li span {
+	/*background-color: #f0f0f0;*/
+	left: 6em;
+	bottom: -4.5em;
+	width: 55px;
 }
 .y-axis-mark {
 	writing-mode: vertical-lr;
@@ -308,13 +326,14 @@ ul.tabs li.active {
 	color: #fff;
 	padding: 6px 3px;
 	letter-spacing: 1px;
-	top: 20vh;
+	top: 21vh;
 }
 .y-axis-mark.account {
 	left: -5px;
 }
-.y-axis-mark.game {
-	left: 10vw;
+.y-axis-mark.game,
+.y-axis-mark.miscon {
+	left: 8vw;
 }
 .x-axis-mark {
 	position: absolute;
@@ -329,6 +348,9 @@ ul.tabs li.active {
 .x-axis-mark.game {
 	margin: 30px 0 0 455px;
 }
+.x-axis-mark.miscon {
+	margin: 55px 0 0 455px;
+}
 
 
 /*account*/
@@ -338,13 +360,13 @@ ul.tabs li.active {
 	max-width: 50vw;
 	/*margin: 80px 0 0 680px;*/
 	top: 11vh;
-	left: 44vw;
+	left: 46.5vw;
 }
 .account-recordtable {
 	background-color: #fff;
 	position: absolute;
 	top: 22vh;
-	left: 44vw;
+	left: 46vw;
 	width: 33vw;
 	height: 70vh;
 	font-size: 14px;
