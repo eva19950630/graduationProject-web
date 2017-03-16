@@ -110,8 +110,9 @@ if ($_POST) {
 								// GET game data record
 								$data_gamerecord = "SELECT * FROM game_record where username = '$userrow[0]'";
 								$recorddata = mysqli_query($Link, $data_gamerecord); 
-								$usercount = 0;
+								$usercount = 0; $rightcount = 0;
 								while ($row = mysqli_fetch_array($recorddata)) {
+									
 									$usercount++;
 								}
 							?>
