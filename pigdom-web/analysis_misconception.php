@@ -63,12 +63,20 @@ $data_username = "SELECT username FROM user";
 $usernamedata = mysqli_query($Link, $data_username);
 
 if ($_POST) {
-	echo $_POST['select2'];
+	// echo $_POST['select2'];
 	$selectuser = $_POST['select2'];
 } else {
-	echo "Syuan";
-	$selectuser = "Syuan";
+	// echo "alluser";
+	$selectuser = "alluser";
 }
+
+// GET game data record
+if ($selectuser != "alluser")
+	$data_gamerecord = "SELECT * FROM game_record where username = '$selectuser'";
+else
+	$data_gamerecord = "SELECT * FROM game_record";
+$recorddata = mysqli_query($Link, $data_gamerecord);
+
 ?>
 
 			<!-- tab2: misconception -->
@@ -77,8 +85,10 @@ if ($_POST) {
 				<div class="cond-select miscon">
 					<div class="container">
 						<div class="col-md-4">
+							<form method="post" name="form2" action="">
 							選擇帳號：
 							<select name="select2" class="selectbox">
+									<option value="alluser">全部學生</option>
 								<?php while ($userrow = mysqli_fetch_array($usernamedata)) { ?>
 									<?php if($userrow[0] == $selectuser) : ?>
 										<option value=<?php echo $userrow[0]?> selected><?php echo $userrow[0] ?></option>
@@ -105,42 +115,72 @@ if ($_POST) {
 						</ul>
 						<ul class="chart-bars miscon">
 							<?php
-								// GET game data record
-								$data_gamerecord = "SELECT * FROM game_record where username = '$selectuser'";
-								$recorddata = mysqli_query($Link, $data_gamerecord);
-
-								$single_usercount = 0;
-								while ($row = mysqli_fetch_array($recorddata)) {
-									if ($row[6] != "-")
-										$single_usercount++;
-									for ($i = 0; $i < count($gamearray); $i++) {
-										if ($row[1] == $gamearray[$i]) {
-											$gamecount[$i]++;
-											if ($row[6] == "wrong") {
-												$wrongcount[$i]++;
-												switch ($row[1]) {
-													case "大家來解鎖" || "大家來蓋章" || "大家來平衡":
-														$miscount[0]++;
-														$miscount[1]++;
-														$miscount[4]++;
-														break;
-													case "大家來撈魚":
-														$miscount[2]++;
-														$miscount[4]++;
-														break;
-													case "大家來買糖":
-														$miscount[3]++;
-														$miscount[4]++;
-														break;
-												}
-											}
-										}
-										
-									}
+							for ($i = 0; $i < 5; $i++) {
+								$miscount[$i] = 0;
+								$wronggamecount[$i] = 0;
+								$gamecount[$i] = 0;
+							}
+							
+							while ($row = mysqli_fetch_array($recorddata)) {
+								for ($i = 0; $i < count($gamearray); $i++) {
+									if ($row[1] == $gamearray[$i])
+										$gamecount[$i]++;
 								}
-								
-								for ($i = 0; $i < count($misarray); $i++) { ?>
-									<li><div data-percentage=<?php echo $miscount[$i] ?> class="bar"></div><span><?php echo $misarray[$i]?></span></li>
+								if ($row[6] == "wrong") {
+									switch ($row[1]) {
+										case "大家來解鎖":
+											$miscount[0]++;
+											$miscount[1]++;
+											$miscount[4]++;
+											break;
+										case "大家來撈魚":
+											$miscount[2]++;
+											$miscount[4]++;
+											break;
+										case "大家來蓋章":
+											$miscount[0]++;
+											$miscount[1]++;
+											$miscount[4]++;
+											break;
+										case "大家來平衡":
+											$miscount[0]++;
+											$miscount[1]++;
+											$miscount[4]++;
+											break;
+										case "大家來買糖":
+											$miscount[3]++;
+											$miscount[4]++;
+											break;
+									}
+								}							
+							}
+							
+							// calculate misconception rate
+							if ($gamecount[0] == 0 && $gamecount[2] == 0 && $gamecount[3] == 0) {
+								$misrate[0] = 0;
+								$misrate[1] = 0;
+							} else {
+								$misrate[0] = round(($miscount[0]/($gamecount[0]+$gamecount[2]+$gamecount[3]))*100, 0);
+								$misrate[1] = round(($miscount[1]/($gamecount[0]+$gamecount[2]+$gamecount[3]))*100, 0);
+							}
+
+							if ($gamecount[1] != 0)
+								$misrate[2] = round(($miscount[2]/$gamecount[1])*100, 0);
+							else
+								$misrate[2] = 0;
+							
+							if ($gamecount[4] != 0)
+								$misrate[3] = round(($miscount[3]/$gamecount[4])*100, 0);
+							else
+								$misrate[3] = 0;
+							
+							if ($gamecount[0] == 0 && $gamecount[1] == 0 && $gamecount[2] == 0 && $gamecount[3] == 0 && $gamecount[4] == 0)
+								$misrate[4] = 0;
+							else
+								$misrate[4] = round(($miscount[4]/($gamecount[0]+$gamecount[1]+$gamecount[2]+$gamecount[3]+$gamecount[4]))*100, 0);
+							
+							for ($i = 0; $i < count($misarray); $i++) { ?>
+								<li><div data-percentage=<?php echo $misrate[$i] ?> class="bar"></div><span><?php echo $misarray[$i]?></span></li>
 							<?php } ?>
 						</ul>
 					</div>

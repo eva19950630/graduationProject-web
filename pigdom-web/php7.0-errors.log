@@ -94,3 +94,67 @@
 [16-Mar-2017 15:00:46 Asia/Taipei] PHP Parse error:  syntax error, unexpected end of file in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis.php on line 249
 [16-Mar-2017 15:32:05 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis.php on line 119
 [16-Mar-2017 20:39:40 Asia/Taipei] PHP Parse error:  syntax error, unexpected end of file in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 172
+[17-Mar-2017 14:20:44 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 138
+[17-Mar-2017 14:20:44 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 138
+[17-Mar-2017 14:20:44 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 138
+[17-Mar-2017 14:20:44 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 138
+[17-Mar-2017 14:20:44 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 138
+[17-Mar-2017 14:20:44 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 138
+[17-Mar-2017 14:20:44 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 138
+[17-Mar-2017 14:20:44 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 138
+[17-Mar-2017 14:20:44 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 138
+[17-Mar-2017 14:20:44 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 138
+[17-Mar-2017 14:20:44 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 138
+[17-Mar-2017 14:20:44 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 138
+[17-Mar-2017 14:20:44 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 138
+[17-Mar-2017 14:20:44 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 138
+[17-Mar-2017 14:20:44 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 138
+[17-Mar-2017 14:20:44 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 138
+[17-Mar-2017 14:20:44 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 138
+[17-Mar-2017 14:42:33 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 71
+[17-Mar-2017 14:42:45 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 71
+[17-Mar-2017 14:43:59 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 71
+[17-Mar-2017 14:49:59 Asia/Taipei] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 71
+[17-Mar-2017 14:50:38 Asia/Taipei] PHP Fatal error:  Uncaught Error: Call to undefined function conut() in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php:71
+Stack trace:
+#0 {main}
+  thrown in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 71
+[17-Mar-2017 15:12:10 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 148
+[17-Mar-2017 15:12:10 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 149
+[17-Mar-2017 15:12:10 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 148
+[17-Mar-2017 15:12:10 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 149
+[17-Mar-2017 15:12:10 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 149
+[17-Mar-2017 15:12:10 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 149
+[17-Mar-2017 15:12:10 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 149
+[17-Mar-2017 15:12:10 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 149
+[17-Mar-2017 15:12:10 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 149
+[17-Mar-2017 16:02:14 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 165
+[17-Mar-2017 16:02:14 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 166
+[17-Mar-2017 16:02:14 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 165
+[17-Mar-2017 16:02:14 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 166
+[17-Mar-2017 16:02:14 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 165
+[17-Mar-2017 16:02:14 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 166
+[17-Mar-2017 16:02:14 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 165
+[17-Mar-2017 16:02:14 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 166
+[17-Mar-2017 16:02:14 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 165
+[17-Mar-2017 16:02:14 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 166
+[17-Mar-2017 16:02:14 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 165
+[17-Mar-2017 16:02:14 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 166
+[17-Mar-2017 16:08:24 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 165
+[17-Mar-2017 16:08:24 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 166
+[17-Mar-2017 16:08:24 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 165
+[17-Mar-2017 16:08:24 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 166
+[17-Mar-2017 16:08:24 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 165
+[17-Mar-2017 16:08:24 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 166
+[17-Mar-2017 16:08:24 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 165
+[17-Mar-2017 16:08:24 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 166
+[17-Mar-2017 16:08:24 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 165
+[17-Mar-2017 16:08:24 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 166
+[17-Mar-2017 16:08:24 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 165
+[17-Mar-2017 16:08:24 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 166
+[17-Mar-2017 17:00:42 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 156
+[17-Mar-2017 17:00:42 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 157
+[17-Mar-2017 17:00:42 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 158
+[17-Mar-2017 17:00:42 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 159
+[17-Mar-2017 17:00:42 Asia/Taipei] PHP Warning:  Division by zero in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 160
+[17-Mar-2017 17:06:01 Asia/Taipei] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in D:\TWAMPd\htdocs\graduationProject\pigdom-web\analysis_misconception.php on line 176
