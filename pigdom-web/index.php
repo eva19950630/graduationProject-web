@@ -43,7 +43,12 @@
 	
 	<!-- index page -->
 	<div class="rightside-page index">
-		首頁abc
+		<img src="images/cover-web.png">
+		<div class="indexbtn">
+			<a href="history.php"><button class="btn btn-default" style="outline: none;">觀看學生<br>歷程記錄</button></a>&emsp;&emsp;
+			<a href="analysis_account.php"><button class="btn btn-default" style="outline: none;">查閱數據<br>統計分析</button></a>&emsp;&emsp;
+			<a href="account.php"><button class="btn btn-default" style="outline: none;">搜尋帳號<br>密碼記錄</button></a>
+		</div>
 	</div>
 	<!-- end index page -->
 

@@ -99,7 +99,7 @@ $recorddata = mysqli_query($Link, $data_gamerecord);
 							</select>
 						</div>
 						<div class="col-md-4">
-							<input type="submit" name="Submit" value="生成圖表" class="btn btn-default filter" style="outline-color: #f2db63;">
+							<input type="submit" name="Submit" value="查看分析" class="btn btn-default filter" style="outline-color: #f2db63;">
 						</div>
 							</form>
 					</div>
@@ -184,8 +184,6 @@ $recorddata = mysqli_query($Link, $data_gamerecord);
 							<?php } ?>
 						</ul>
 					</div>
-					<div class="y-axis-mark miscon">比例(%)</div>
-					<div class="x-axis-mark miscon">迷思概念</div>
 				</div> <!-- end analysis chart -->
 			</div> <!-- end tab2: misconception -->
 

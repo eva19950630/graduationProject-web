@@ -90,7 +90,7 @@ if ($_POST) {
 							</select>
 						</div>
 						<div class="col-md-4">
-							<input type="submit" name="Submit" value="生成圖表" class="btn btn-default filter" style="outline-color: #f2db63;">
+							<input type="submit" name="Submit" value="查看分析" class="btn btn-default filter" style="outline-color: #f2db63;">
 						</div>
 							</form>
 					</div>
@@ -141,8 +141,6 @@ if ($_POST) {
 							<?php } ?>
 						</ul>
 					</div>
-					<div class="y-axis-mark account">比例(%)</div>
-					<div class="x-axis-mark account">學生帳號</div>
 				</div> <!-- end analysis chart -->
 			</div> <!-- end tab1: account -->
 	

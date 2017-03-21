@@ -83,7 +83,7 @@ if ($selectuser == "alluser") {
 					</select>
 				</div>
 				<div class="col-md-4">
-					<input type="submit" name="Submit" value="篩選" class="btn btn-default filter" style="outline-color: #f2db63;">
+					<input type="submit" name="Submit" value="查詢" class="btn btn-default filter" style="outline-color: #f2db63;">
 				</div>
 					</form>
 			</div>

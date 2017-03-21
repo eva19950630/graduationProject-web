@@ -53,8 +53,27 @@ body {
 
 /*rightside-page*/
 .rightside-page {
-	position: relative;
+	position: absolute;
 	/*width: 75%;*/
+	left: 26vw;
+}
+.rightside-page.index img {
+	width: 100%;
+}
+.indexbtn {
+	position: absolute;
+	top: 52vh;
+	left: 14vw;
+}
+.indexbtn button {
+	padding: 30px 50px;
+	font-size: 24px;
+	letter-spacing: 2px;
+	background-color: #f2db63;
+}
+.indexbtn button:hover {
+	background-color: #FFFFAA;
+	border-color: #FFFFAA;
 }
 
 
@@ -312,38 +331,6 @@ ul.tabs li.active {
 	left: 6em;
 	bottom: -4.5em;
 	width: 55px;
-}
-.y-axis-mark {
-	writing-mode: vertical-lr;
-	-webkit-writing-mode: vertical-lr;
-	-moz-writing-mode: vertical-lr;
-	-ms-writing-mode: vertical-lr;
-	-o-writing-mode: vertical-lr;
-	position: absolute;
-	background-color: #999;
-	color: #fff;
-	padding: 6px 3px;
-	letter-spacing: 1px;
-	top: 21vh;
-}
-.y-axis-mark.account {
-	left: -5px;
-}
-.y-axis-mark.miscon {
-	left: 8vw;
-}
-.x-axis-mark {
-	position: absolute;
-	background-color: #999;
-	color: #fff;
-	padding: 3px 6px;
-	letter-spacing: 1px;
-}
-.x-axis-mark.account {
-	margin: 40px 0 0 445px;
-}
-.x-axis-mark.miscon {
-	margin: 55px 0 0 455px;
 }
 
 
