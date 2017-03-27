@@ -6,7 +6,7 @@ mysqli_select_db($Link, "graduation_project"); //選擇資料庫
 
 $ranOnedata = "SELECT * FROM testbank where questions_id in (3, 5, 6, 12, 29, 32, 37, 45, 46, 47, 48, 66) order by rand() limit 1";
 
-//$ranOnedata = "SELECT * FROM testbank where questions_id = 47";
+// $ranOnedata = "SELECT * FROM testbank where questions_id = 3";
 //$ranOnedata = "SELECT * FROM testbank where questions_id in (3, 5, 6, 12) order by rand() limit 1";
 //$ranOnedata = "SELECT * FROM testbank where questions_id in (29, 32, 37, 66) order by rand() limit 1";
 //$ranOnedata = "SELECT * FROM testbank where questions_id in (45, 46, 47, 48) order by rand() limit 1";
