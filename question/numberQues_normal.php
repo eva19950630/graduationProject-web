@@ -27,35 +27,35 @@ if ($qid == 3 || $qid == 5 || $qid == 6 || $qid == 12) {
 //    echo $qid;
     $A = rand(300, 500);
     $B = rand(30, 75);
-    $C = rand(1, 125);
-    $D = rand(1, 25);
+    $C = rand(2, 125);
+    $D = rand(2, 25);
     $E = 0;
     $F = 0;
     calculate($A, $B, $C, $D, $E, $F, $qid, $qkind, $hint);
 } else if ($qid == 29 || $qid == 32 || $qid == 37 || $qid == 66) {
 //    echo $qid;
-    $A = rand(1, 99);
-    $B = rand(1, 20);
-    $C = rand(1, 5);
+    $A = rand(2, 30);
+    $B = rand(2, 10);
+    $C = rand(2, 5);
     $D = $A * $B * $C;
     $E = 0;
     $F = 0;
     calculate($A, $B, $C, $D, $E, $F, $qid, $qkind, $hint);
 } else if ($qid == 45 || $qid == 46 || $qid == 47) {
 //    echo $qid;
-    $A = rand(50, 80);
-    $B = rand(40, 99);
-    $C = rand(1, 320);
-    $D = rand(1, 6);
+    $A = rand(10, 20);
+    $B = rand(35, 50);
+    $C = rand(2, 50);
+    $D = rand(2, 6);
     $E = $A * $B;
     $F = $C * $D;
     calculate($A, $B, $C, $D, $E, $F, $qid, $qkind, $hint);
 } else if ($qid == 48) {
 //    echo $qid;
-    $A = rand(100, 200);
-    $B = rand(45, 50);
-    $C = rand(1, 40);
-    $D = rand(5, 40);
+    $A = rand(20, 50);
+    $B = rand(10, 20);
+    $C = rand(2, 10);
+    $D = rand(5, 10);
     $E = $A * $B;
     $F = $C * $D;
     calculate($A, $B, $C, $D, $E, $F, $qid, $qkind, $hint); 
