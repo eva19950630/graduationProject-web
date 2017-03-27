@@ -35,7 +35,7 @@
 			</ul>
 			<div class="sidebar-menu update">
 				<p><i class="fa fa-clock-o"></i>&emsp;系統最後更新時間：</p>
-				&emsp;2017/03/23 16:31:34
+				&emsp;2017/03/28 00:58:25
 			</div>
 		</div>
 	</div>
@@ -79,7 +79,7 @@ if ($_POST) {
 							<form method="post" name="form1" action="">
 							篩選條件：
 							<select name="select1" class="selectbox">
-								<?php $account_cond_array=array("答對率", "觀看補救教學比例"); 
+								<?php $account_cond_array=array("答對率", "觀看補救教學比例", "排名RANK"); 
 								for ($i = 0; $i < count($account_cond_array); $i++) { ?>
 									<?php if($account_cond_array[$i] == $account_selectcond) : ?>
 										<option value=<?php echo $account_cond_array[$i]?> selected><?php echo $account_cond_array[$i] ?></option>
@@ -111,12 +111,16 @@ if ($_POST) {
 								$data_gamerecord = "SELECT * FROM game_record where username = '$userrow[0]'";
 								$recorddata = mysqli_query($Link, $data_gamerecord); 
 								
-								$single_usercount = 0; $rightcount = 0; $teachingcount = 0;
+								$single_usercount = 0; $rightcount = 0; $wrongcount = 0; $teachingcount = 0; $rightalltime = 0;
 								while ($row = mysqli_fetch_array($recorddata)) {
 									if ($row[6] != "-")
 										$single_usercount++;
-									if ($row[6] == "right")
+									if ($row[6] == "right") {
 										$rightcount++;
+										$rightalltime += $row[8];
+									} else if ($row[6] == "wrong") {
+										$wrongcount++;
+									}
 									if ($row[7] == "yes")
 										$teachingcount++;
 								}
@@ -132,11 +136,20 @@ if ($_POST) {
 									$teachingrate = round(($teachingcount/$single_usercount)*100, 0);
 								else
 									$teachingrate = 0;
+
+								//calculate rank
+								if ($rightalltime == 0 && $wrongcount == 0)
+									$rank = 0;
+								else
+									$rank = round(($rightalltime/($rightalltime+($wrongcount*5)))*100, 0);
+
 							?>
 								<?php if($account_selectcond == "答對率") : ?>
 									<li><div data-percentage=<?php echo $correctrate ?> class="bar"></div><span><?php echo $userrow[0] ?></span></li>
 								<?php elseif($account_selectcond == "觀看補救教學比例") : ?>
 									<li><div data-percentage=<?php echo $teachingrate ?> class="bar"></div><span><?php echo $userrow[0] ?></span></li>
+								<?php elseif($account_selectcond == "排名RANK") : ?>
+									<li><div data-percentage=<?php echo $rank ?> class="bar"></div><span><?php echo $userrow[0] ?></span></li>
 								<?php endif; ?>
 							<?php } ?>
 						</ul>
