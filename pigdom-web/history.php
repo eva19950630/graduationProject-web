@@ -35,7 +35,7 @@
 			</ul>
 			<div class="sidebar-menu update">
 				<p><i class="fa fa-clock-o"></i>&emsp;系統最後更新時間：</p>
-				&emsp;2017/03/23 16:31:34
+				&emsp;2017/03/28 00:58:25
 			</div>
 		</div>
 	</div>

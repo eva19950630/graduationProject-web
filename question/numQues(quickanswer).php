@@ -9,17 +9,17 @@ for ($i = 0; $i < $ran_records; $i++) {
 
     if ($qid == 3 || $qid == 5 || $qid == 6 || $qid == 12) {
     //    echo $qid;
-        $A = rand(500, 8500);
-        $B = rand(300, 600);
-        $C = rand(2, 100);
-        $D = rand(2, 50);
+        $A = rand(300, 500);
+        $B = rand(30, 75);
+        $C = rand(2, 125);
+        $D = rand(2, 25);
         $E = 0;
         $F = 0;
         calculate($A, $B, $C, $D, $E, $F, $qid, $qkind, $hint);
     } else if ($qid == 29 || $qid == 32 || $qid == 37 || $qid == 66) {
     //    echo $qid;
-        $A = rand(2, 99);
-        $B = rand(6, 20);
+        $A = rand(2, 30);
+        $B = rand(2, 10);
         $C = rand(2, 5);
         $D = $A * $B * $C;
         $E = 0;
@@ -27,19 +27,19 @@ for ($i = 0; $i < $ran_records; $i++) {
         calculate($A, $B, $C, $D, $E, $F, $qid, $qkind, $hint);
     } else if ($qid == 45 || $qid == 46 || $qid == 47) {
     //    echo $qid;
-        $A = rand(50, 80);
-        $B = rand(40, 99);
-        $C = rand(2, 320);
+        $A = rand(10, 20);
+        $B = rand(35, 50);
+        $C = rand(2, 50);
         $D = rand(2, 6);
         $E = $A * $B;
         $F = $C * $D;
         calculate($A, $B, $C, $D, $E, $F, $qid, $qkind, $hint);
     } else if ($qid == 48) {
     //    echo $qid;
-        $A = rand(100, 200);
-        $B = rand(45, 50);
-        $C = rand(2, 40);
-        $D = rand(5, 40);
+        $A = rand(20, 50);
+        $B = rand(10, 20);
+        $C = rand(2, 10);
+        $D = rand(5, 10);
         $E = $A * $B;
         $F = $C * $D;
         calculate($A, $B, $C, $D, $E, $F, $qid, $qkind, $hint); 
@@ -84,7 +84,7 @@ function calculate($a, $b, $c, $d, $e, $f, $Q, $K, $H) {
         case 29:
             echo $a." × ".$b." × ".$c." = ?".'@';
             $ans = $a * $b * $c;
-            $W1 = $a * $b * ($c-1);
+            $W1 = $a * ($b-1) * $c;
             $W2 = $a * $b;
             $W3 = $a * $b * $c * 2;
             break;
@@ -179,7 +179,7 @@ function calculate($a, $b, $c, $d, $e, $f, $Q, $K, $H) {
                 $ans = $a + $c;
                 $W1 = ($a-1) + $c;
                 $W2 = $a + ($c-2);
-                $W3 = $a + $c - 1;
+                $W3 = $a + $c - 3;
             } 
             break;
         case 48:
